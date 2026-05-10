@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cleanpvp",
+  "name": "Clean PVP",
+  "description": "A modern looking PVP mod for 1.8.9.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ExampleDude"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "assets/cleanpvp/icon.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

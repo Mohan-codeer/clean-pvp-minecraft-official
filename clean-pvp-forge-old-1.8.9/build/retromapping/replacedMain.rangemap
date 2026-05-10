@@ -1,0 +1,1474 @@
+Symbol range map extraction starting
+Processing 9 files
+processing com\cleanpvp\CleanPVP.java
+@|com\cleanpvp\CleanPVP.java|8|20|com.cleanpvp|package|com.cleanpvp|(file)
+Class Start: com.cleanpvp.CleanPVP
+   @|com\cleanpvp\CleanPVP.java|331|337|String|class|java.lang.String
+   @|com\cleanpvp\CleanPVP.java|338|343|MODID|field|com.cleanpvp.CleanPVP|MODID|
+   @|com\cleanpvp\CleanPVP.java|382|388|String|class|java.lang.String
+   @|com\cleanpvp\CleanPVP.java|389|396|VERSION|field|com.cleanpvp.CleanPVP|VERSION|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\cleanpvp\CleanPVP.java|445|452|preInit|method|com.cleanpvp.CleanPVP|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\cleanpvp\CleanPVP.java|453|478|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\cleanpvp\CleanPVP.java|479|484|event|param|com.cleanpvp.CleanPVP|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\cleanpvp\CleanPVP.java|565|569|init|method|com.cleanpvp.CleanPVP|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\cleanpvp\CleanPVP.java|570|592|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\cleanpvp\CleanPVP.java|593|598|event|param|com.cleanpvp.CleanPVP|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\cleanpvp\CleanPVP.java|610|620|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\CleanPVP.java|621|631|initialize|method|com.cleanpvp.HudManager|initialize|()V
+      @|com\cleanpvp\CleanPVP.java|643|655|ThemeManager|class|com.cleanpvp.ThemeManager
+      @|com\cleanpvp\CleanPVP.java|656|666|initialize|method|com.cleanpvp.ThemeManager|initialize|()V
+      @|com\cleanpvp\CleanPVP.java|678|684|System|class|java.lang.System
+      @|com\cleanpvp\CleanPVP.java|685|688|out|field|java.lang.System|out
+      @|com\cleanpvp\CleanPVP.java|689|696|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : com.cleanpvp.CleanPVP
+endProcessing com\cleanpvp\CleanPVP.java
+
+processing com\cleanpvp\CleanPvpTheme.java
+@|com\cleanpvp\CleanPvpTheme.java|8|20|com.cleanpvp|package|com.cleanpvp|(file)
+Class Start: com.cleanpvp.CleanPvpTheme
+   @|com\cleanpvp\CleanPvpTheme.java|86|98|TOP_GRADIENT|field|com.cleanpvp.CleanPvpTheme|TOP_GRADIENT|
+   @|com\cleanpvp\CleanPvpTheme.java|141|156|BOTTOM_GRADIENT|field|com.cleanpvp.CleanPvpTheme|BOTTOM_GRADIENT|
+   @|com\cleanpvp\CleanPvpTheme.java|199|209|BUTTON_TOP|field|com.cleanpvp.CleanPvpTheme|BUTTON_TOP|
+   @|com\cleanpvp\CleanPvpTheme.java|252|265|BUTTON_BOTTOM|field|com.cleanpvp.CleanPvpTheme|BUTTON_BOTTOM|
+   @|com\cleanpvp\CleanPvpTheme.java|308|324|BUTTON_HOVER_TOP|field|com.cleanpvp.CleanPvpTheme|BUTTON_HOVER_TOP|
+   @|com\cleanpvp\CleanPvpTheme.java|367|386|BUTTON_HOVER_BOTTOM|field|com.cleanpvp.CleanPvpTheme|BUTTON_HOVER_BOTTOM|
+   @|com\cleanpvp\CleanPvpTheme.java|429|442|BUTTON_BORDER|field|com.cleanpvp.CleanPvpTheme|BUTTON_BORDER|
+   Method Start: CleanPvpTheme()V
+      @|com\cleanpvp\CleanPvpTheme.java|470|483|CleanPvpTheme|method|com.cleanpvp.CleanPvpTheme|CleanPvpTheme|()V
+   Method End: CleanPvpTheme()V
+Class End  : com.cleanpvp.CleanPvpTheme
+endProcessing com\cleanpvp\CleanPvpTheme.java
+
+processing com\cleanpvp\ClickTracker.java
+@|com\cleanpvp\ClickTracker.java|8|20|com.cleanpvp|package|com.cleanpvp|(file)
+Class Start: com.cleanpvp.ClickTracker
+   @|com\cleanpvp\ClickTracker.java|175|184|WINDOW_MS|field|com.cleanpvp.ClickTracker|WINDOW_MS|
+   @|com\cleanpvp\ClickTracker.java|218|222|Long|class|java.lang.Long
+   @|com\cleanpvp\ClickTracker.java|212|217|Deque|class|java.util.Deque
+   @|com\cleanpvp\ClickTracker.java|224|234|leftClicks|field|com.cleanpvp.ClickTracker|leftClicks|
+   @|com\cleanpvp\ClickTracker.java|241|251|ArrayDeque|class|java.util.ArrayDeque
+   @|com\cleanpvp\ClickTracker.java|252|256|Long|class|java.lang.Long
+   @|com\cleanpvp\ClickTracker.java|285|289|Long|class|java.lang.Long
+   @|com\cleanpvp\ClickTracker.java|279|284|Deque|class|java.util.Deque
+   @|com\cleanpvp\ClickTracker.java|291|302|rightClicks|field|com.cleanpvp.ClickTracker|rightClicks|
+   @|com\cleanpvp\ClickTracker.java|309|319|ArrayDeque|class|java.util.ArrayDeque
+   @|com\cleanpvp\ClickTracker.java|320|324|Long|class|java.lang.Long
+   @|com\cleanpvp\ClickTracker.java|349|360|leftWasDown|field|com.cleanpvp.ClickTracker|leftWasDown|
+   @|com\cleanpvp\ClickTracker.java|382|394|rightWasDown|field|com.cleanpvp.ClickTracker|rightWasDown|
+   Method Start: tick(Lnet/minecraft/client/Minecraft;)V
+      @|com\cleanpvp\ClickTracker.java|413|417|tick|method|com.cleanpvp.ClickTracker|tick|(Lnet/minecraft/client/Minecraft;)V
+      @|com\cleanpvp\ClickTracker.java|418|427|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\ClickTracker.java|428|434|client|param|com.cleanpvp.ClickTracker|tick|(Lnet/minecraft/client/Minecraft;)V|client|0
+      @|com\cleanpvp\ClickTracker.java|457|463|System|class|java.lang.System
+      @|com\cleanpvp\ClickTracker.java|464|481|currentTimeMillis|method|java.lang.System|currentTimeMillis|()J
+      @|com\cleanpvp\ClickTracker.java|512|518|client|param|com.cleanpvp.ClickTracker|tick|(Lnet/minecraft/client/Minecraft;)V|client|0
+      @|com\cleanpvp\ClickTracker.java|519|531|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
+      @|com\cleanpvp\ClickTracker.java|532|545|keyBindAttack|field|net.minecraft.client.settings.GameSettings|keyBindAttack
+      @|com\cleanpvp\ClickTracker.java|546|555|isKeyDown|method|net.minecraft.client.settings.KeyBinding|isKeyDown|()Z
+      @|com\cleanpvp\ClickTracker.java|587|593|client|param|com.cleanpvp.ClickTracker|tick|(Lnet/minecraft/client/Minecraft;)V|client|0
+      @|com\cleanpvp\ClickTracker.java|594|606|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
+      @|com\cleanpvp\ClickTracker.java|607|621|keyBindUseItem|field|net.minecraft.client.settings.GameSettings|keyBindUseItem
+      @|com\cleanpvp\ClickTracker.java|622|631|isKeyDown|method|net.minecraft.client.settings.KeyBinding|isKeyDown|()Z
+      @|com\cleanpvp\ClickTracker.java|661|672|leftWasDown|field|com.cleanpvp.ClickTracker|leftWasDown
+      @|com\cleanpvp\ClickTracker.java|688|698|leftClicks|field|com.cleanpvp.ClickTracker|leftClicks
+      @|com\cleanpvp\ClickTracker.java|699|706|addLast|method|java.util.Deque|addLast|(Ljava/lang/Object;)V
+      @|com\cleanpvp\ClickTracker.java|749|761|rightWasDown|field|com.cleanpvp.ClickTracker|rightWasDown
+      @|com\cleanpvp\ClickTracker.java|777|788|rightClicks|field|com.cleanpvp.ClickTracker|rightClicks
+      @|com\cleanpvp\ClickTracker.java|789|796|addLast|method|java.util.Deque|addLast|(Ljava/lang/Object;)V
+      @|com\cleanpvp\ClickTracker.java|822|833|leftWasDown|field|com.cleanpvp.ClickTracker|leftWasDown
+      @|com\cleanpvp\ClickTracker.java|854|866|rightWasDown|field|com.cleanpvp.ClickTracker|rightWasDown
+      @|com\cleanpvp\ClickTracker.java|888|893|prune|method|com.cleanpvp.ClickTracker|prune|(J)V
+   Method End: tick(Lnet/minecraft/client/Minecraft;)V
+   Method Start: getLeftCps()I
+      @|com\cleanpvp\ClickTracker.java|922|932|getLeftCps|method|com.cleanpvp.ClickTracker|getLeftCps|()I
+      @|com\cleanpvp\ClickTracker.java|952|962|leftClicks|field|com.cleanpvp.ClickTracker|leftClicks
+      @|com\cleanpvp\ClickTracker.java|963|967|size|method|java.util.Collection|size|()I
+   Method End: getLeftCps()I
+   Method Start: getRightCps()I
+      @|com\cleanpvp\ClickTracker.java|993|1004|getRightCps|method|com.cleanpvp.ClickTracker|getRightCps|()I
+      @|com\cleanpvp\ClickTracker.java|1024|1035|rightClicks|field|com.cleanpvp.ClickTracker|rightClicks
+      @|com\cleanpvp\ClickTracker.java|1036|1040|size|method|java.util.Collection|size|()I
+   Method End: getRightCps()I
+   Method Start: prune(J)V
+      @|com\cleanpvp\ClickTracker.java|1068|1073|prune|method|com.cleanpvp.ClickTracker|prune|(J)V
+      @|com\cleanpvp\ClickTracker.java|1079|1082|now|param|com.cleanpvp.ClickTracker|prune|(J)V|now|0
+      @|com\cleanpvp\ClickTracker.java|1102|1112|leftClicks|field|com.cleanpvp.ClickTracker|leftClicks
+      @|com\cleanpvp\ClickTracker.java|1113|1120|isEmpty|method|java.util.Collection|isEmpty|()Z
+      @|com\cleanpvp\ClickTracker.java|1126|1129|now|param|com.cleanpvp.ClickTracker|prune|(J)V|now|0
+      @|com\cleanpvp\ClickTracker.java|1132|1142|leftClicks|field|com.cleanpvp.ClickTracker|leftClicks
+      @|com\cleanpvp\ClickTracker.java|1143|1152|peekFirst|method|java.util.Deque|peekFirst|()Ljava/lang/Object;
+      @|com\cleanpvp\ClickTracker.java|1157|1166|WINDOW_MS|field|com.cleanpvp.ClickTracker|WINDOW_MS
+      @|com\cleanpvp\ClickTracker.java|1182|1192|leftClicks|field|com.cleanpvp.ClickTracker|leftClicks
+      @|com\cleanpvp\ClickTracker.java|1193|1202|pollFirst|method|java.util.Deque|pollFirst|()Ljava/lang/Object;
+      @|com\cleanpvp\ClickTracker.java|1232|1243|rightClicks|field|com.cleanpvp.ClickTracker|rightClicks
+      @|com\cleanpvp\ClickTracker.java|1244|1251|isEmpty|method|java.util.Collection|isEmpty|()Z
+      @|com\cleanpvp\ClickTracker.java|1257|1260|now|param|com.cleanpvp.ClickTracker|prune|(J)V|now|0
+      @|com\cleanpvp\ClickTracker.java|1263|1274|rightClicks|field|com.cleanpvp.ClickTracker|rightClicks
+      @|com\cleanpvp\ClickTracker.java|1275|1284|peekFirst|method|java.util.Deque|peekFirst|()Ljava/lang/Object;
+      @|com\cleanpvp\ClickTracker.java|1289|1298|WINDOW_MS|field|com.cleanpvp.ClickTracker|WINDOW_MS
+      @|com\cleanpvp\ClickTracker.java|1314|1325|rightClicks|field|com.cleanpvp.ClickTracker|rightClicks
+      @|com\cleanpvp\ClickTracker.java|1326|1335|pollFirst|method|java.util.Deque|pollFirst|()Ljava/lang/Object;
+   Method End: prune(J)V
+Class End  : com.cleanpvp.ClickTracker
+endProcessing com\cleanpvp\ClickTracker.java
+
+processing com\cleanpvp\HudConfig.java
+@|com\cleanpvp\HudConfig.java|8|20|com.cleanpvp|package|com.cleanpvp|(file)
+Class Start: com.cleanpvp.HudConfig
+   Enum Start: com.cleanpvp.HudConfig.ColorMode
+      @|com\cleanpvp\HudConfig.java|113|122|ColorMode|class|com.cleanpvp.HudConfig.ColorMode
+      @|com\cleanpvp\HudConfig.java|133|138|SOLID|field|com.cleanpvp.HudConfig.ColorMode|SOLID
+      @|com\cleanpvp\HudConfig.java|148|155|RAINBOW|field|com.cleanpvp.HudConfig.ColorMode|RAINBOW
+   Enum End  : com.cleanpvp.HudConfig.ColorMode
+   Enum Start: com.cleanpvp.HudConfig.FillMode
+      @|com\cleanpvp\HudConfig.java|179|187|FillMode|class|com.cleanpvp.HudConfig.FillMode
+      @|com\cleanpvp\HudConfig.java|198|210|OUTLINE_ONLY|field|com.cleanpvp.HudConfig.FillMode|OUTLINE_ONLY
+      @|com\cleanpvp\HudConfig.java|220|229|SOLID_BOX|field|com.cleanpvp.HudConfig.FillMode|SOLID_BOX
+   Enum End  : com.cleanpvp.HudConfig.FillMode
+   Enum Start: com.cleanpvp.HudConfig.WidgetScale
+      @|com\cleanpvp\HudConfig.java|253|264|WidgetScale|class|com.cleanpvp.HudConfig.WidgetScale
+      @|com\cleanpvp\HudConfig.java|275|280|SMALL|field|com.cleanpvp.HudConfig.WidgetScale|SMALL
+      @|com\cleanpvp\HudConfig.java|297|303|MEDIUM|field|com.cleanpvp.HudConfig.WidgetScale|MEDIUM
+      @|com\cleanpvp\HudConfig.java|319|324|LARGE|field|com.cleanpvp.HudConfig.WidgetScale|LARGE
+      @|com\cleanpvp\HudConfig.java|361|367|factor|field|com.cleanpvp.HudConfig.WidgetScale|factor|
+      Method Start: WidgetScale(F)V
+         @|com\cleanpvp\HudConfig.java|378|389|WidgetScale|method|com.cleanpvp.HudConfig.WidgetScale|WidgetScale|(F)V
+         @|com\cleanpvp\HudConfig.java|396|402|factor|param|com.cleanpvp.HudConfig.WidgetScale|WidgetScale|(F)V|factor|0
+         @|com\cleanpvp\HudConfig.java|423|429|factor|field|com.cleanpvp.HudConfig.WidgetScale|factor
+         @|com\cleanpvp\HudConfig.java|432|438|factor|param|com.cleanpvp.HudConfig.WidgetScale|WidgetScale|(F)V|factor|0
+      Method End: WidgetScale(F)V
+      Method Start: factor()F
+         @|com\cleanpvp\HudConfig.java|472|478|factor|method|com.cleanpvp.HudConfig.WidgetScale|factor|()F
+         @|com\cleanpvp\HudConfig.java|502|508|factor|field|com.cleanpvp.HudConfig.WidgetScale|factor
+      Method End: factor()F
+      Method Start: next()Lcom/cleanpvp/HudConfig$WidgetScale;
+         @|com\cleanpvp\HudConfig.java|548|552|next|method|com.cleanpvp.HudConfig.WidgetScale|next|()Lcom/cleanpvp/HudConfig$WidgetScale;
+         @|com\cleanpvp\HudConfig.java|536|547|WidgetScale|class|com.cleanpvp.HudConfig.WidgetScale
+         @|com\cleanpvp\HudConfig.java|606|611|SMALL|field|com.cleanpvp.HudConfig.WidgetScale|SMALL
+         @|com\cleanpvp\HudConfig.java|620|626|MEDIUM|field|com.cleanpvp.HudConfig.WidgetScale|MEDIUM
+         @|com\cleanpvp\HudConfig.java|649|655|MEDIUM|field|com.cleanpvp.HudConfig.WidgetScale|MEDIUM
+         @|com\cleanpvp\HudConfig.java|664|669|LARGE|field|com.cleanpvp.HudConfig.WidgetScale|LARGE
+         @|com\cleanpvp\HudConfig.java|692|697|LARGE|field|com.cleanpvp.HudConfig.WidgetScale|LARGE
+         @|com\cleanpvp\HudConfig.java|706|711|SMALL|field|com.cleanpvp.HudConfig.WidgetScale|SMALL
+         @|com\cleanpvp\HudConfig.java|745|751|MEDIUM|field|com.cleanpvp.HudConfig.WidgetScale|MEDIUM
+      Method End: next()Lcom/cleanpvp/HudConfig$WidgetScale;
+   Enum End  : com.cleanpvp.HudConfig.WidgetScale
+   Class Start: com.cleanpvp.HudConfig.WidgetSettings
+      @|com\cleanpvp\HudConfig.java|847|852|xNorm|field|com.cleanpvp.HudConfig.WidgetSettings|xNorm|
+      @|com\cleanpvp\HudConfig.java|876|881|yNorm|field|com.cleanpvp.HudConfig.WidgetSettings|yNorm|
+      @|com\cleanpvp\HudConfig.java|906|913|enabled|field|com.cleanpvp.HudConfig.WidgetSettings|enabled|
+      Method Start: WidgetSettings()V
+         @|com\cleanpvp\HudConfig.java|931|945|WidgetSettings|method|com.cleanpvp.HudConfig.WidgetSettings|WidgetSettings|()V
+      Method End: WidgetSettings()V
+      Method Start: WidgetSettings(DDZ)V
+         @|com\cleanpvp\HudConfig.java|976|990|WidgetSettings|method|com.cleanpvp.HudConfig.WidgetSettings|WidgetSettings|(DDZ)V
+         @|com\cleanpvp\HudConfig.java|998|1003|xNorm|param|com.cleanpvp.HudConfig.WidgetSettings|WidgetSettings|(DDZ)V|xNorm|0
+         @|com\cleanpvp\HudConfig.java|1012|1017|yNorm|param|com.cleanpvp.HudConfig.WidgetSettings|WidgetSettings|(DDZ)V|yNorm|1
+         @|com\cleanpvp\HudConfig.java|1027|1034|enabled|param|com.cleanpvp.HudConfig.WidgetSettings|WidgetSettings|(DDZ)V|enabled|2
+         @|com\cleanpvp\HudConfig.java|1055|1060|xNorm|field|com.cleanpvp.HudConfig.WidgetSettings|xNorm
+         @|com\cleanpvp\HudConfig.java|1063|1068|xNorm|param|com.cleanpvp.HudConfig.WidgetSettings|WidgetSettings|(DDZ)V|xNorm|0
+         @|com\cleanpvp\HudConfig.java|1087|1092|yNorm|field|com.cleanpvp.HudConfig.WidgetSettings|yNorm
+         @|com\cleanpvp\HudConfig.java|1095|1100|yNorm|param|com.cleanpvp.HudConfig.WidgetSettings|WidgetSettings|(DDZ)V|yNorm|1
+         @|com\cleanpvp\HudConfig.java|1119|1126|enabled|field|com.cleanpvp.HudConfig.WidgetSettings|enabled
+         @|com\cleanpvp\HudConfig.java|1129|1136|enabled|param|com.cleanpvp.HudConfig.WidgetSettings|WidgetSettings|(DDZ)V|enabled|2
+      Method End: WidgetSettings(DDZ)V
+   Class End  : com.cleanpvp.HudConfig.WidgetSettings
+   @|com\cleanpvp\HudConfig.java|1170|1179|HudWidget|class|com.cleanpvp.HudWidget
+   @|com\cleanpvp\HudConfig.java|1181|1195|WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+   @|com\cleanpvp\HudConfig.java|1166|1169|Map|class|java.util.Map
+   @|com\cleanpvp\HudConfig.java|1197|1204|widgets|field|com.cleanpvp.HudConfig|widgets|
+   @|com\cleanpvp\HudConfig.java|1211|1218|EnumMap|class|java.util.EnumMap
+   @|com\cleanpvp\HudConfig.java|1219|1228|HudWidget|class|com.cleanpvp.HudWidget
+   @|com\cleanpvp\HudConfig.java|1230|1244|WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+   @|com\cleanpvp\HudConfig.java|1246|1255|HudWidget|class|com.cleanpvp.HudWidget
+   @|com\cleanpvp\HudConfig.java|1275|1284|ColorMode|class|com.cleanpvp.HudConfig.ColorMode
+   @|com\cleanpvp\HudConfig.java|1285|1294|colorMode|field|com.cleanpvp.HudConfig|colorMode|
+   @|com\cleanpvp\HudConfig.java|1297|1306|ColorMode|class|com.cleanpvp.HudConfig.ColorMode
+   @|com\cleanpvp\HudConfig.java|1307|1312|SOLID|field|com.cleanpvp.HudConfig.ColorMode|SOLID
+   @|com\cleanpvp\HudConfig.java|1325|1333|FillMode|class|com.cleanpvp.HudConfig.FillMode
+   @|com\cleanpvp\HudConfig.java|1334|1342|fillMode|field|com.cleanpvp.HudConfig|fillMode|
+   @|com\cleanpvp\HudConfig.java|1345|1353|FillMode|class|com.cleanpvp.HudConfig.FillMode
+   @|com\cleanpvp\HudConfig.java|1354|1366|OUTLINE_ONLY|field|com.cleanpvp.HudConfig.FillMode|OUTLINE_ONLY
+   @|com\cleanpvp\HudConfig.java|1379|1390|WidgetScale|class|com.cleanpvp.HudConfig.WidgetScale
+   @|com\cleanpvp\HudConfig.java|1391|1406|keystrokesScale|field|com.cleanpvp.HudConfig|keystrokesScale|
+   @|com\cleanpvp\HudConfig.java|1409|1420|WidgetScale|class|com.cleanpvp.HudConfig.WidgetScale
+   @|com\cleanpvp\HudConfig.java|1421|1426|SMALL|field|com.cleanpvp.HudConfig.WidgetScale|SMALL
+   @|com\cleanpvp\HudConfig.java|1443|1453|solidColor|field|com.cleanpvp.HudConfig|solidColor|
+   Method Start: createDefault()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudConfig.java|1497|1510|createDefault|method|com.cleanpvp.HudConfig|createDefault|()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudConfig.java|1487|1496|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudConfig.java|1523|1532|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudConfig.java|1546|1555|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudConfig.java|1574|1581|widgets|field|com.cleanpvp.HudConfig|widgets
+      @|com\cleanpvp\HudConfig.java|1582|1585|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|com\cleanpvp\HudConfig.java|1586|1595|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudConfig.java|1596|1606|KEYSTROKES|field|com.cleanpvp.HudWidget|KEYSTROKES
+      @|com\cleanpvp\HudConfig.java|1612|1626|WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+      @|com\cleanpvp\HudConfig.java|1662|1669|widgets|field|com.cleanpvp.HudConfig|widgets
+      @|com\cleanpvp\HudConfig.java|1670|1673|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|com\cleanpvp\HudConfig.java|1674|1683|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudConfig.java|1684|1687|FPS|field|com.cleanpvp.HudWidget|FPS
+      @|com\cleanpvp\HudConfig.java|1693|1707|WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+      @|com\cleanpvp\HudConfig.java|1743|1750|widgets|field|com.cleanpvp.HudConfig|widgets
+      @|com\cleanpvp\HudConfig.java|1751|1754|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|com\cleanpvp\HudConfig.java|1755|1764|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudConfig.java|1765|1768|CPS|field|com.cleanpvp.HudWidget|CPS
+      @|com\cleanpvp\HudConfig.java|1774|1788|WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+      @|com\cleanpvp\HudConfig.java|1825|1832|widgets|field|com.cleanpvp.HudConfig|widgets
+      @|com\cleanpvp\HudConfig.java|1833|1836|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|com\cleanpvp\HudConfig.java|1837|1846|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudConfig.java|1847|1852|ARMOR|field|com.cleanpvp.HudWidget|ARMOR
+      @|com\cleanpvp\HudConfig.java|1858|1872|WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+      @|com\cleanpvp\HudConfig.java|1909|1916|widgets|field|com.cleanpvp.HudConfig|widgets
+      @|com\cleanpvp\HudConfig.java|1917|1920|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|com\cleanpvp\HudConfig.java|1921|1930|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudConfig.java|1931|1938|POTIONS|field|com.cleanpvp.HudWidget|POTIONS
+      @|com\cleanpvp\HudConfig.java|1944|1958|WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+   Method End: createDefault()Lcom/cleanpvp/HudConfig;
+   Method Start: getWidgetSettings(Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudConfig$WidgetSettings;
+      @|com\cleanpvp\HudConfig.java|2036|2053|getWidgetSettings|method|com.cleanpvp.HudConfig|getWidgetSettings|(Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudConfig$WidgetSettings;
+      @|com\cleanpvp\HudConfig.java|2021|2035|WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+      @|com\cleanpvp\HudConfig.java|2054|2063|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudConfig.java|2064|2070|widget|param|com.cleanpvp.HudConfig|getWidgetSettings|(Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudConfig$WidgetSettings;|widget|0
+      @|com\cleanpvp\HudConfig.java|2082|2096|WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+      @|com\cleanpvp\HudConfig.java|2108|2115|widgets|field|com.cleanpvp.HudConfig|widgets
+      @|com\cleanpvp\HudConfig.java|2116|2119|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|com\cleanpvp\HudConfig.java|2120|2126|widget|param|com.cleanpvp.HudConfig|getWidgetSettings|(Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudConfig$WidgetSettings;|widget|0
+      @|com\cleanpvp\HudConfig.java|2188|2202|WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+      @|com\cleanpvp\HudConfig.java|2234|2241|widgets|field|com.cleanpvp.HudConfig|widgets
+      @|com\cleanpvp\HudConfig.java|2242|2245|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|com\cleanpvp\HudConfig.java|2246|2252|widget|param|com.cleanpvp.HudConfig|getWidgetSettings|(Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudConfig$WidgetSettings;|widget|0
+   Method End: getWidgetSettings(Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudConfig$WidgetSettings;
+Class End  : com.cleanpvp.HudConfig
+endProcessing com\cleanpvp\HudConfig.java
+
+processing com\cleanpvp\HudConfigManager.java
+@|com\cleanpvp\HudConfigManager.java|8|20|com.cleanpvp|package|com.cleanpvp|(file)
+Class Start: com.cleanpvp.HudConfigManager
+   @|com\cleanpvp\HudConfigManager.java|295|299|Gson|class|com.google.gson.Gson
+   @|com\cleanpvp\HudConfigManager.java|300|304|GSON|field|com.cleanpvp.HudConfigManager|GSON|
+   @|com\cleanpvp\HudConfigManager.java|311|322|GsonBuilder|class|com.google.gson.GsonBuilder
+   @|com\cleanpvp\HudConfigManager.java|325|342|setPrettyPrinting|method|com.google.gson.GsonBuilder|setPrettyPrinting|()Lcom/google/gson/GsonBuilder;
+   @|com\cleanpvp\HudConfigManager.java|345|351|create|method|com.google.gson.GsonBuilder|create|()Lcom/google/gson/Gson;
+   @|com\cleanpvp\HudConfigManager.java|380|384|File|class|java.io.File
+   @|com\cleanpvp\HudConfigManager.java|385|396|CONFIG_FILE|field|com.cleanpvp.HudConfigManager|CONFIG_FILE|
+   @|com\cleanpvp\HudConfigManager.java|403|407|File|class|java.io.File
+   @|com\cleanpvp\HudConfigManager.java|408|417|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\cleanpvp\HudConfigManager.java|418|430|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|com\cleanpvp\HudConfigManager.java|433|442|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+   Method Start: HudConfigManager()V
+      @|com\cleanpvp\HudConfigManager.java|486|502|HudConfigManager|method|com.cleanpvp.HudConfigManager|HudConfigManager|()V
+   Method End: HudConfigManager()V
+   Method Start: load()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudConfigManager.java|542|546|load|method|com.cleanpvp.HudConfigManager|load|()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudConfigManager.java|532|541|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudConfigManager.java|564|575|CONFIG_FILE|field|com.cleanpvp.HudConfigManager|CONFIG_FILE
+      @|com\cleanpvp\HudConfigManager.java|576|582|exists|method|java.io.File|exists|()Z
+      @|com\cleanpvp\HudConfigManager.java|600|609|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudConfigManager.java|619|628|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudConfigManager.java|629|642|createDefault|method|com.cleanpvp.HudConfig|createDefault|()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudConfigManager.java|658|662|save|method|com.cleanpvp.HudConfigManager|save|(Lcom/cleanpvp/HudConfig;)V
+      @|com\cleanpvp\HudConfigManager.java|723|740|InputStreamReader|class|java.io.InputStreamReader
+      @|com\cleanpvp\HudConfigManager.java|754|771|InputStreamReader|class|java.io.InputStreamReader
+      @|com\cleanpvp\HudConfigManager.java|776|791|FileInputStream|class|java.io.FileInputStream
+      @|com\cleanpvp\HudConfigManager.java|792|803|CONFIG_FILE|field|com.cleanpvp.HudConfigManager|CONFIG_FILE
+      @|com\cleanpvp\HudConfigManager.java|806|822|StandardCharsets|class|java.nio.charset.StandardCharsets
+      @|com\cleanpvp\HudConfigManager.java|823|828|UTF_8|field|java.nio.charset.StandardCharsets|UTF_8
+      @|com\cleanpvp\HudConfigManager.java|845|854|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudConfigManager.java|864|868|GSON|field|com.cleanpvp.HudConfigManager|GSON
+      @|com\cleanpvp\HudConfigManager.java|869|877|fromJson|method|com.google.gson.Gson|fromJson|(Ljava/io/Reader;Ljava/lang/Class;)Ljava/lang/Object;
+      @|com\cleanpvp\HudConfigManager.java|886|895|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudConfigManager.java|961|970|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudConfigManager.java|971|984|createDefault|method|com.cleanpvp.HudConfig|createDefault|()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudConfigManager.java|1019|1028|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudConfigManager.java|1038|1047|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudConfigManager.java|1048|1054|values|method|com.cleanpvp.HudWidget|values|()[Lcom/cleanpvp/HudWidget;
+      @|com\cleanpvp\HudConfigManager.java|1083|1100|getWidgetSettings|method|com.cleanpvp.HudConfig|getWidgetSettings|(Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudConfig$WidgetSettings;
+      @|com\cleanpvp\HudConfigManager.java|1168|1179|IOException|class|java.io.IOException
+      @|com\cleanpvp\HudConfigManager.java|1182|1200|JsonParseException|class|com.google.gson.JsonParseException
+      @|com\cleanpvp\HudConfigManager.java|1226|1232|System|class|java.lang.System
+      @|com\cleanpvp\HudConfigManager.java|1233|1236|err|field|java.lang.System|err
+      @|com\cleanpvp\HudConfigManager.java|1237|1244|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\cleanpvp\HudConfigManager.java|1325|1340|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|com\cleanpvp\HudConfigManager.java|1363|1372|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudConfigManager.java|1373|1386|createDefault|method|com.cleanpvp.HudConfig|createDefault|()Lcom/cleanpvp/HudConfig;
+   Method End: load()Lcom/cleanpvp/HudConfig;
+   Method Start: save(Lcom/cleanpvp/HudConfig;)V
+      @|com\cleanpvp\HudConfigManager.java|1430|1434|save|method|com.cleanpvp.HudConfigManager|save|(Lcom/cleanpvp/HudConfig;)V
+      @|com\cleanpvp\HudConfigManager.java|1435|1444|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudConfigManager.java|1445|1451|config|param|com.cleanpvp.HudConfigManager|save|(Lcom/cleanpvp/HudConfig;)V|config|0
+      @|com\cleanpvp\HudConfigManager.java|1481|1485|File|class|java.io.File
+      @|com\cleanpvp\HudConfigManager.java|1495|1506|CONFIG_FILE|field|com.cleanpvp.HudConfigManager|CONFIG_FILE
+      @|com\cleanpvp\HudConfigManager.java|1507|1520|getParentFile|method|java.io.File|getParentFile|()Ljava/io/File;
+      @|com\cleanpvp\HudConfigManager.java|1548|1554|exists|method|java.io.File|exists|()Z
+      @|com\cleanpvp\HudConfigManager.java|1583|1589|mkdirs|method|java.io.File|mkdirs|()Z
+      @|com\cleanpvp\HudConfigManager.java|1624|1642|OutputStreamWriter|class|java.io.OutputStreamWriter
+      @|com\cleanpvp\HudConfigManager.java|1656|1674|OutputStreamWriter|class|java.io.OutputStreamWriter
+      @|com\cleanpvp\HudConfigManager.java|1679|1695|FileOutputStream|class|java.io.FileOutputStream
+      @|com\cleanpvp\HudConfigManager.java|1696|1707|CONFIG_FILE|field|com.cleanpvp.HudConfigManager|CONFIG_FILE
+      @|com\cleanpvp\HudConfigManager.java|1710|1726|StandardCharsets|class|java.nio.charset.StandardCharsets
+      @|com\cleanpvp\HudConfigManager.java|1727|1732|UTF_8|field|java.nio.charset.StandardCharsets|UTF_8
+      @|com\cleanpvp\HudConfigManager.java|1753|1757|GSON|field|com.cleanpvp.HudConfigManager|GSON
+      @|com\cleanpvp\HudConfigManager.java|1758|1764|toJson|method|com.google.gson.Gson|toJson|(Ljava/lang/Object;Ljava/lang/Appendable;)V
+      @|com\cleanpvp\HudConfigManager.java|1765|1771|config|param|com.cleanpvp.HudConfigManager|save|(Lcom/cleanpvp/HudConfig;)V|config|0
+      @|com\cleanpvp\HudConfigManager.java|1813|1824|IOException|class|java.io.IOException
+      @|com\cleanpvp\HudConfigManager.java|1850|1856|System|class|java.lang.System
+      @|com\cleanpvp\HudConfigManager.java|1857|1860|err|field|java.lang.System|err
+      @|com\cleanpvp\HudConfigManager.java|1861|1868|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\cleanpvp\HudConfigManager.java|1932|1947|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: save(Lcom/cleanpvp/HudConfig;)V
+Class End  : com.cleanpvp.HudConfigManager
+endProcessing com\cleanpvp\HudConfigManager.java
+
+processing com\cleanpvp\HudEditorScreen.java
+@|com\cleanpvp\HudEditorScreen.java|8|20|com.cleanpvp|package|com.cleanpvp|(file)
+Class Start: com.cleanpvp.HudEditorScreen
+   @|com\cleanpvp\HudEditorScreen.java|263|272|HudWidget|class|com.cleanpvp.HudWidget
+   @|com\cleanpvp\HudEditorScreen.java|273|287|draggingWidget|field|com.cleanpvp.HudEditorScreen|draggingWidget|
+   @|com\cleanpvp\HudEditorScreen.java|305|316|dragOffsetX|field|com.cleanpvp.HudEditorScreen|dragOffsetX|
+   @|com\cleanpvp\HudEditorScreen.java|334|345|dragOffsetY|field|com.cleanpvp.HudEditorScreen|dragOffsetY|
+   Method Start: drawScreen(IIF)V
+      @|com\cleanpvp\HudEditorScreen.java|378|388|drawScreen|method|net.minecraft.client.gui.GuiScreen|drawScreen|(IIF)V
+      @|com\cleanpvp\HudEditorScreen.java|393|399|mouseX|param|com.cleanpvp.HudEditorScreen|drawScreen|(IIF)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|405|411|mouseY|param|com.cleanpvp.HudEditorScreen|drawScreen|(IIF)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|419|431|partialTicks|param|com.cleanpvp.HudEditorScreen|drawScreen|(IIF)V|partialTicks|2
+      @|com\cleanpvp\HudEditorScreen.java|509|525|drawGradientRect|method|net.minecraft.client.gui.Gui|drawGradientRect|(IIIIII)V
+      @|com\cleanpvp\HudEditorScreen.java|532|537|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\cleanpvp\HudEditorScreen.java|539|545|height|field|net.minecraft.client.gui.GuiScreen|height
+      @|com\cleanpvp\HudEditorScreen.java|589|604|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
+      @|com\cleanpvp\HudEditorScreen.java|605|625|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\HudEditorScreen.java|678|693|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
+      @|com\cleanpvp\HudEditorScreen.java|694|714|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\HudEditorScreen.java|836|853|renderTopControls|method|com.cleanpvp.HudEditorScreen|renderTopControls|(II)V
+      @|com\cleanpvp\HudEditorScreen.java|854|860|mouseX|param|com.cleanpvp.HudEditorScreen|drawScreen|(IIF)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|862|868|mouseY|param|com.cleanpvp.HudEditorScreen|drawScreen|(IIF)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|883|900|renderTogglePanel|method|com.cleanpvp.HudEditorScreen|renderTogglePanel|(II)V
+      @|com\cleanpvp\HudEditorScreen.java|901|907|mouseX|param|com.cleanpvp.HudEditorScreen|drawScreen|(IIF)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|909|915|mouseY|param|com.cleanpvp.HudEditorScreen|drawScreen|(IIF)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|930|943|renderWidgets|method|com.cleanpvp.HudEditorScreen|renderWidgets|(II)V
+      @|com\cleanpvp\HudEditorScreen.java|944|950|mouseX|param|com.cleanpvp.HudEditorScreen|drawScreen|(IIF)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|952|958|mouseY|param|com.cleanpvp.HudEditorScreen|drawScreen|(IIF)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|978|987|Exception|class|java.lang.Exception
+      @|com\cleanpvp\HudEditorScreen.java|1007|1022|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|com\cleanpvp\HudEditorScreen.java|1059|1069|drawScreen|method|net.minecraft.client.gui.GuiScreen|drawScreen|(IIF)V
+      @|com\cleanpvp\HudEditorScreen.java|1070|1076|mouseX|param|com.cleanpvp.HudEditorScreen|drawScreen|(IIF)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|1078|1084|mouseY|param|com.cleanpvp.HudEditorScreen|drawScreen|(IIF)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|1086|1098|partialTicks|param|com.cleanpvp.HudEditorScreen|drawScreen|(IIF)V|partialTicks|2
+   Method End: drawScreen(IIF)V
+   Method Start: mouseClicked(III)V
+      @|com\cleanpvp\HudEditorScreen.java|1141|1153|mouseClicked|method|net.minecraft.client.gui.GuiScreen|mouseClicked|(III)V
+      @|com\cleanpvp\HudEditorScreen.java|1202|1213|IOException|class|java.io.IOException
+      @|com\cleanpvp\HudEditorScreen.java|1158|1164|mouseX|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|1170|1176|mouseY|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|1182|1193|mouseButton|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseButton|2
+      @|com\cleanpvp\HudEditorScreen.java|1228|1239|mouseButton|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseButton|2
+      @|com\cleanpvp\HudEditorScreen.java|1248|1269|handleTopControlClick|method|com.cleanpvp.HudEditorScreen|handleTopControlClick|(II)Z
+      @|com\cleanpvp\HudEditorScreen.java|1270|1276|mouseX|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|1278|1284|mouseY|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|1331|1342|mouseButton|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseButton|2
+      @|com\cleanpvp\HudEditorScreen.java|1351|1368|handleToggleClick|method|com.cleanpvp.HudEditorScreen|handleToggleClick|(II)Z
+      @|com\cleanpvp\HudEditorScreen.java|1369|1375|mouseX|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|1377|1383|mouseY|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|1431|1442|mouseButton|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseButton|2
+      @|com\cleanpvp\HudEditorScreen.java|1463|1472|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudEditorScreen.java|1482|1491|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudEditorScreen.java|1492|1504|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\cleanpvp\HudEditorScreen.java|1525|1534|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudEditorScreen.java|1544|1553|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudEditorScreen.java|1554|1560|values|method|com.cleanpvp.HudWidget|values|()[Lcom/cleanpvp/HudWidget;
+      @|com\cleanpvp\HudEditorScreen.java|1582|1605|HudManager.WidgetBounds|class|com.cleanpvp.HudManager.WidgetBounds
+      @|com\cleanpvp\HudEditorScreen.java|1615|1625|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|1626|1641|getWidgetBounds|method|com.cleanpvp.HudManager|getWidgetBounds|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;
+      @|com\cleanpvp\HudEditorScreen.java|1686|1694|contains|method|com.cleanpvp.HudManager.WidgetBounds|contains|(DD)Z
+      @|com\cleanpvp\HudEditorScreen.java|1695|1701|mouseX|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|1703|1709|mouseY|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|1734|1748|draggingWidget|field|com.cleanpvp.HudEditorScreen|draggingWidget
+      @|com\cleanpvp\HudEditorScreen.java|1779|1790|dragOffsetX|field|com.cleanpvp.HudEditorScreen|dragOffsetX
+      @|com\cleanpvp\HudEditorScreen.java|1793|1799|mouseX|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|1809|1810|x|field|com.cleanpvp.HudManager.WidgetBounds|x
+      @|com\cleanpvp\HudEditorScreen.java|1832|1843|dragOffsetY|field|com.cleanpvp.HudEditorScreen|dragOffsetY
+      @|com\cleanpvp\HudEditorScreen.java|1846|1852|mouseY|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|1862|1863|y|field|com.cleanpvp.HudManager.WidgetBounds|y
+      @|com\cleanpvp\HudEditorScreen.java|1949|1961|mouseClicked|method|net.minecraft.client.gui.GuiScreen|mouseClicked|(III)V
+      @|com\cleanpvp\HudEditorScreen.java|1962|1968|mouseX|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|1970|1976|mouseY|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|1978|1989|mouseButton|param|com.cleanpvp.HudEditorScreen|mouseClicked|(III)V|mouseButton|2
+   Method End: mouseClicked(III)V
+   Method Start: mouseReleased(III)V
+      @|com\cleanpvp\HudEditorScreen.java|2032|2045|mouseReleased|method|net.minecraft.client.gui.GuiScreen|mouseReleased|(III)V
+      @|com\cleanpvp\HudEditorScreen.java|2050|2056|mouseX|param|com.cleanpvp.HudEditorScreen|mouseReleased|(III)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|2062|2068|mouseY|param|com.cleanpvp.HudEditorScreen|mouseReleased|(III)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|2074|2079|state|param|com.cleanpvp.HudEditorScreen|mouseReleased|(III)V|state|2
+      @|com\cleanpvp\HudEditorScreen.java|2095|2100|state|param|com.cleanpvp.HudEditorScreen|mouseReleased|(III)V|state|2
+      @|com\cleanpvp\HudEditorScreen.java|2109|2123|draggingWidget|field|com.cleanpvp.HudEditorScreen|draggingWidget
+      @|com\cleanpvp\HudEditorScreen.java|2147|2161|draggingWidget|field|com.cleanpvp.HudEditorScreen|draggingWidget
+      @|com\cleanpvp\HudEditorScreen.java|2182|2192|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|2193|2200|persist|method|com.cleanpvp.HudManager|persist|()V
+      @|com\cleanpvp\HudEditorScreen.java|2228|2241|mouseReleased|method|net.minecraft.client.gui.GuiScreen|mouseReleased|(III)V
+      @|com\cleanpvp\HudEditorScreen.java|2242|2248|mouseX|param|com.cleanpvp.HudEditorScreen|mouseReleased|(III)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|2250|2256|mouseY|param|com.cleanpvp.HudEditorScreen|mouseReleased|(III)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|2258|2263|state|param|com.cleanpvp.HudEditorScreen|mouseReleased|(III)V|state|2
+   Method End: mouseReleased(III)V
+   Method Start: mouseClickMove(IIIJ)V
+      @|com\cleanpvp\HudEditorScreen.java|2306|2320|mouseClickMove|method|net.minecraft.client.gui.GuiScreen|mouseClickMove|(IIIJ)V
+      @|com\cleanpvp\HudEditorScreen.java|2325|2331|mouseX|param|com.cleanpvp.HudEditorScreen|mouseClickMove|(IIIJ)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|2337|2343|mouseY|param|com.cleanpvp.HudEditorScreen|mouseClickMove|(IIIJ)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|2349|2367|clickedMouseButton|param|com.cleanpvp.HudEditorScreen|mouseClickMove|(IIIJ)V|clickedMouseButton|2
+      @|com\cleanpvp\HudEditorScreen.java|2374|2392|timeSinceLastClick|param|com.cleanpvp.HudEditorScreen|mouseClickMove|(IIIJ)V|timeSinceLastClick|3
+      @|com\cleanpvp\HudEditorScreen.java|2408|2426|clickedMouseButton|param|com.cleanpvp.HudEditorScreen|mouseClickMove|(IIIJ)V|clickedMouseButton|2
+      @|com\cleanpvp\HudEditorScreen.java|2435|2449|draggingWidget|field|com.cleanpvp.HudEditorScreen|draggingWidget
+      @|com\cleanpvp\HudEditorScreen.java|2484|2490|mouseX|param|com.cleanpvp.HudEditorScreen|mouseClickMove|(IIIJ)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|2493|2504|dragOffsetX|field|com.cleanpvp.HudEditorScreen|dragOffsetX
+      @|com\cleanpvp\HudEditorScreen.java|2529|2535|mouseY|param|com.cleanpvp.HudEditorScreen|mouseClickMove|(IIIJ)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|2538|2549|dragOffsetY|field|com.cleanpvp.HudEditorScreen|dragOffsetY
+      @|com\cleanpvp\HudEditorScreen.java|2563|2573|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|2574|2591|setWidgetPosition|method|com.cleanpvp.HudManager|setWidgetPosition|(Lcom/cleanpvp/HudWidget;IIII)V
+      @|com\cleanpvp\HudEditorScreen.java|2592|2606|draggingWidget|field|com.cleanpvp.HudEditorScreen|draggingWidget
+      @|com\cleanpvp\HudEditorScreen.java|2620|2625|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\cleanpvp\HudEditorScreen.java|2627|2633|height|field|net.minecraft.client.gui.GuiScreen|height
+   Method End: mouseClickMove(IIIJ)V
+   Method Start: onGuiClosed()V
+      @|com\cleanpvp\HudEditorScreen.java|2683|2694|onGuiClosed|method|net.minecraft.client.gui.GuiScreen|onGuiClosed|()V
+      @|com\cleanpvp\HudEditorScreen.java|2707|2717|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|2718|2725|persist|method|com.cleanpvp.HudManager|persist|()V
+      @|com\cleanpvp\HudEditorScreen.java|2743|2754|onGuiClosed|method|net.minecraft.client.gui.GuiScreen|onGuiClosed|()V
+   Method End: onGuiClosed()V
+   Method Start: doesGuiPauseGame()Z
+      @|com\cleanpvp\HudEditorScreen.java|2798|2814|doesGuiPauseGame|method|net.minecraft.client.gui.GuiScreen|doesGuiPauseGame|()Z
+   Method End: doesGuiPauseGame()Z
+   Method Start: renderWidgets(II)V
+      @|com\cleanpvp\HudEditorScreen.java|2865|2878|renderWidgets|method|com.cleanpvp.HudEditorScreen|renderWidgets|(II)V
+      @|com\cleanpvp\HudEditorScreen.java|2883|2889|mouseX|param|com.cleanpvp.HudEditorScreen|renderWidgets|(II)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|2895|2901|mouseY|param|com.cleanpvp.HudEditorScreen|renderWidgets|(II)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|2913|2922|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudEditorScreen.java|2932|2941|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudEditorScreen.java|2942|2954|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\cleanpvp\HudEditorScreen.java|2966|2975|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudEditorScreen.java|2985|2995|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|2996|3005|getConfig|method|com.cleanpvp.HudManager|getConfig|()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudEditorScreen.java|3023|3032|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudEditorScreen.java|3042|3051|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudEditorScreen.java|3052|3058|values|method|com.cleanpvp.HudWidget|values|()[Lcom/cleanpvp/HudWidget;
+      @|com\cleanpvp\HudEditorScreen.java|3076|3100|HudConfig.WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+      @|com\cleanpvp\HudEditorScreen.java|3119|3136|getWidgetSettings|method|com.cleanpvp.HudConfig|getWidgetSettings|(Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudConfig$WidgetSettings;
+      @|com\cleanpvp\HudEditorScreen.java|3172|3179|enabled|field|com.cleanpvp.HudConfig.WidgetSettings|enabled
+      @|com\cleanpvp\HudEditorScreen.java|3235|3258|HudManager.WidgetBounds|class|com.cleanpvp.HudManager.WidgetBounds
+      @|com\cleanpvp\HudEditorScreen.java|3268|3278|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|3279|3294|getWidgetBounds|method|com.cleanpvp.HudManager|getWidgetBounds|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;
+      @|com\cleanpvp\HudEditorScreen.java|3324|3334|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|3335|3347|renderWidget|method|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V
+      @|com\cleanpvp\HudEditorScreen.java|3371|3372|x|field|com.cleanpvp.HudManager.WidgetBounds|x
+      @|com\cleanpvp\HudEditorScreen.java|3381|3382|y|field|com.cleanpvp.HudManager.WidgetBounds|y
+      @|com\cleanpvp\HudEditorScreen.java|3403|3418|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
+      @|com\cleanpvp\HudEditorScreen.java|3419|3439|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\HudEditorScreen.java|3447|3455|getTitle|method|com.cleanpvp.HudWidget|getTitle|()Ljava/lang/String;
+      @|com\cleanpvp\HudEditorScreen.java|3466|3467|x|field|com.cleanpvp.HudManager.WidgetBounds|x
+      @|com\cleanpvp\HudEditorScreen.java|3480|3481|y|field|com.cleanpvp.HudManager.WidgetBounds|y
+      @|com\cleanpvp\HudEditorScreen.java|3524|3532|contains|method|com.cleanpvp.HudManager.WidgetBounds|contains|(DD)Z
+      @|com\cleanpvp\HudEditorScreen.java|3533|3539|mouseX|param|com.cleanpvp.HudEditorScreen|renderWidgets|(II)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|3541|3547|mouseY|param|com.cleanpvp.HudEditorScreen|renderWidgets|(II)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|3568|3571|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudEditorScreen.java|3572|3580|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudEditorScreen.java|3588|3589|x|field|com.cleanpvp.HudManager.WidgetBounds|x
+      @|com\cleanpvp\HudEditorScreen.java|3598|3599|y|field|com.cleanpvp.HudManager.WidgetBounds|y
+      @|com\cleanpvp\HudEditorScreen.java|3608|3609|x|field|com.cleanpvp.HudManager.WidgetBounds|x
+      @|com\cleanpvp\HudEditorScreen.java|3619|3624|width|field|com.cleanpvp.HudManager.WidgetBounds|width
+      @|com\cleanpvp\HudEditorScreen.java|3633|3634|y|field|com.cleanpvp.HudManager.WidgetBounds|y
+      @|com\cleanpvp\HudEditorScreen.java|3644|3650|height|field|com.cleanpvp.HudManager.WidgetBounds|height
+   Method End: renderWidgets(II)V
+   Method Start: renderTopControls(II)V
+      @|com\cleanpvp\HudEditorScreen.java|3713|3730|renderTopControls|method|com.cleanpvp.HudEditorScreen|renderTopControls|(II)V
+      @|com\cleanpvp\HudEditorScreen.java|3735|3741|mouseX|param|com.cleanpvp.HudEditorScreen|renderTopControls|(II)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|3747|3753|mouseY|param|com.cleanpvp.HudEditorScreen|renderTopControls|(II)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|3847|3865|drawTopButtonFixed|method|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I
+      @|com\cleanpvp\HudEditorScreen.java|3877|3893|topColorModeText|method|com.cleanpvp.HudEditorScreen|topColorModeText|()Ljava/lang/String;
+      @|com\cleanpvp\HudEditorScreen.java|3897|3905|isInside|method|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z
+      @|com\cleanpvp\HudEditorScreen.java|3906|3912|mouseX|param|com.cleanpvp.HudEditorScreen|renderTopControls|(II)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|3914|3920|mouseY|param|com.cleanpvp.HudEditorScreen|renderTopControls|(II)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|4004|4022|drawTopButtonFixed|method|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I
+      @|com\cleanpvp\HudEditorScreen.java|4034|4049|topFillModeText|method|com.cleanpvp.HudEditorScreen|topFillModeText|()Ljava/lang/String;
+      @|com\cleanpvp\HudEditorScreen.java|4053|4061|isInside|method|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z
+      @|com\cleanpvp\HudEditorScreen.java|4062|4068|mouseX|param|com.cleanpvp.HudEditorScreen|renderTopControls|(II)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|4070|4076|mouseY|param|com.cleanpvp.HudEditorScreen|renderTopControls|(II)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|4169|4187|drawTopButtonFixed|method|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I
+      @|com\cleanpvp\HudEditorScreen.java|4213|4221|isInside|method|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z
+      @|com\cleanpvp\HudEditorScreen.java|4222|4228|mouseX|param|com.cleanpvp.HudEditorScreen|renderTopControls|(II)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|4230|4236|mouseY|param|com.cleanpvp.HudEditorScreen|renderTopControls|(II)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|4298|4301|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudEditorScreen.java|4302|4310|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudEditorScreen.java|4361|4371|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|4372|4381|getConfig|method|com.cleanpvp.HudManager|getConfig|()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudEditorScreen.java|4384|4394|solidColor|field|com.cleanpvp.HudConfig|solidColor
+      @|com\cleanpvp\HudEditorScreen.java|4457|4475|drawTopButtonFixed|method|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I
+      @|com\cleanpvp\HudEditorScreen.java|4487|4498|keySizeText|method|com.cleanpvp.HudEditorScreen|keySizeText|()Ljava/lang/String;
+      @|com\cleanpvp\HudEditorScreen.java|4502|4510|isInside|method|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z
+      @|com\cleanpvp\HudEditorScreen.java|4511|4517|mouseX|param|com.cleanpvp.HudEditorScreen|renderTopControls|(II)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|4519|4525|mouseY|param|com.cleanpvp.HudEditorScreen|renderTopControls|(II)V|mouseY|1
+   Method End: renderTopControls(II)V
+   Method Start: drawTopButtonFixed(IIILjava/lang/String;Z)I
+      @|com\cleanpvp\HudEditorScreen.java|4567|4585|drawTopButtonFixed|method|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I
+      @|com\cleanpvp\HudEditorScreen.java|4590|4591|x|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|x|0
+      @|com\cleanpvp\HudEditorScreen.java|4597|4598|y|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|y|1
+      @|com\cleanpvp\HudEditorScreen.java|4604|4615|buttonWidth|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|buttonWidth|2
+      @|com\cleanpvp\HudEditorScreen.java|4617|4623|String|class|java.lang.String
+      @|com\cleanpvp\HudEditorScreen.java|4624|4628|text|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|text|3
+      @|com\cleanpvp\HudEditorScreen.java|4638|4645|hovered|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|hovered|4
+      @|com\cleanpvp\HudEditorScreen.java|4669|4676|hovered|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|hovered|4
+      @|com\cleanpvp\HudEditorScreen.java|4712|4715|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudEditorScreen.java|4716|4724|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudEditorScreen.java|4725|4726|x|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|x|0
+      @|com\cleanpvp\HudEditorScreen.java|4728|4729|y|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|y|1
+      @|com\cleanpvp\HudEditorScreen.java|4731|4732|x|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|x|0
+      @|com\cleanpvp\HudEditorScreen.java|4735|4746|buttonWidth|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|buttonWidth|2
+      @|com\cleanpvp\HudEditorScreen.java|4748|4749|y|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|y|1
+      @|com\cleanpvp\HudEditorScreen.java|4772|4782|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|4783|4794|drawOutline|method|com.cleanpvp.HudManager|drawOutline|(IIIII)V
+      @|com\cleanpvp\HudEditorScreen.java|4795|4796|x|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|x|0
+      @|com\cleanpvp\HudEditorScreen.java|4798|4799|y|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|y|1
+      @|com\cleanpvp\HudEditorScreen.java|4801|4812|buttonWidth|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|buttonWidth|2
+      @|com\cleanpvp\HudEditorScreen.java|4839|4854|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
+      @|com\cleanpvp\HudEditorScreen.java|4855|4875|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\HudEditorScreen.java|4876|4880|text|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|text|3
+      @|com\cleanpvp\HudEditorScreen.java|4882|4883|x|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|x|0
+      @|com\cleanpvp\HudEditorScreen.java|4889|4890|y|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|y|1
+      @|com\cleanpvp\HudEditorScreen.java|4924|4925|x|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|x|0
+      @|com\cleanpvp\HudEditorScreen.java|4928|4939|buttonWidth|param|com.cleanpvp.HudEditorScreen|drawTopButtonFixed|(IIILjava/lang/String;Z)I|buttonWidth|2
+   Method End: drawTopButtonFixed(IIILjava/lang/String;Z)I
+   Method Start: handleTopControlClick(II)Z
+      @|com\cleanpvp\HudEditorScreen.java|4968|4989|handleTopControlClick|method|com.cleanpvp.HudEditorScreen|handleTopControlClick|(II)Z
+      @|com\cleanpvp\HudEditorScreen.java|4994|5000|mouseX|param|com.cleanpvp.HudEditorScreen|handleTopControlClick|(II)Z|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|5006|5012|mouseY|param|com.cleanpvp.HudEditorScreen|handleTopControlClick|(II)Z|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|5190|5198|isInside|method|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z
+      @|com\cleanpvp\HudEditorScreen.java|5199|5205|mouseX|param|com.cleanpvp.HudEditorScreen|handleTopControlClick|(II)Z|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|5207|5213|mouseY|param|com.cleanpvp.HudEditorScreen|handleTopControlClick|(II)Z|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|5252|5262|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|5263|5277|cycleColorMode|method|com.cleanpvp.HudManager|cycleColorMode|()V
+      @|com\cleanpvp\HudEditorScreen.java|5293|5303|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|5304|5311|persist|method|com.cleanpvp.HudManager|persist|()V
+      @|com\cleanpvp\HudEditorScreen.java|5391|5399|isInside|method|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z
+      @|com\cleanpvp\HudEditorScreen.java|5400|5406|mouseX|param|com.cleanpvp.HudEditorScreen|handleTopControlClick|(II)Z|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|5408|5414|mouseY|param|com.cleanpvp.HudEditorScreen|handleTopControlClick|(II)Z|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|5454|5464|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|5465|5478|cycleFillMode|method|com.cleanpvp.HudManager|cycleFillMode|()V
+      @|com\cleanpvp\HudEditorScreen.java|5494|5504|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|5505|5512|persist|method|com.cleanpvp.HudManager|persist|()V
+      @|com\cleanpvp\HudEditorScreen.java|5593|5601|isInside|method|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z
+      @|com\cleanpvp\HudEditorScreen.java|5602|5608|mouseX|param|com.cleanpvp.HudEditorScreen|handleTopControlClick|(II)Z|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|5610|5616|mouseY|param|com.cleanpvp.HudEditorScreen|handleTopControlClick|(II)Z|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|5655|5665|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|5666|5681|cycleSolidColor|method|com.cleanpvp.HudManager|cycleSolidColor|()V
+      @|com\cleanpvp\HudEditorScreen.java|5697|5707|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|5708|5715|persist|method|com.cleanpvp.HudManager|persist|()V
+      @|com\cleanpvp\HudEditorScreen.java|5795|5803|isInside|method|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z
+      @|com\cleanpvp\HudEditorScreen.java|5804|5810|mouseX|param|com.cleanpvp.HudEditorScreen|handleTopControlClick|(II)Z|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|5812|5818|mouseY|param|com.cleanpvp.HudEditorScreen|handleTopControlClick|(II)Z|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|5858|5868|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|5869|5889|cycleKeystrokesScale|method|com.cleanpvp.HudManager|cycleKeystrokesScale|()V
+      @|com\cleanpvp\HudEditorScreen.java|5905|5915|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|5916|5923|persist|method|com.cleanpvp.HudManager|persist|()V
+   Method End: handleTopControlClick(II)Z
+   Method Start: renderTogglePanel(II)V
+      @|com\cleanpvp\HudEditorScreen.java|6008|6025|renderTogglePanel|method|com.cleanpvp.HudEditorScreen|renderTogglePanel|(II)V
+      @|com\cleanpvp\HudEditorScreen.java|6030|6036|mouseX|param|com.cleanpvp.HudEditorScreen|renderTogglePanel|(II)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|6042|6048|mouseY|param|com.cleanpvp.HudEditorScreen|renderTogglePanel|(II)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|6103|6108|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\cleanpvp\HudEditorScreen.java|6183|6192|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudEditorScreen.java|6193|6199|values|method|com.cleanpvp.HudWidget|values|()[Lcom/cleanpvp/HudWidget;
+      Field: Array Length, skipping
+      @|com\cleanpvp\HudEditorScreen.java|6224|6227|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudEditorScreen.java|6228|6236|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudEditorScreen.java|6317|6327|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|6328|6339|drawOutline|method|com.cleanpvp.HudManager|drawOutline|(IIIII)V
+      @|com\cleanpvp\HudEditorScreen.java|6402|6417|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
+      @|com\cleanpvp\HudEditorScreen.java|6418|6438|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\HudEditorScreen.java|6496|6505|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudEditorScreen.java|6515|6525|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|6526|6535|getConfig|method|com.cleanpvp.HudManager|getConfig|()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudEditorScreen.java|6567|6576|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudEditorScreen.java|6577|6583|values|method|com.cleanpvp.HudWidget|values|()[Lcom/cleanpvp/HudWidget;
+      Field: Array Length, skipping
+      @|com\cleanpvp\HudEditorScreen.java|6613|6622|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudEditorScreen.java|6632|6641|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudEditorScreen.java|6642|6648|values|method|com.cleanpvp.HudWidget|values|()[Lcom/cleanpvp/HudWidget;
+      @|com\cleanpvp\HudEditorScreen.java|6737|6754|getWidgetSettings|method|com.cleanpvp.HudConfig|getWidgetSettings|(Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudConfig$WidgetSettings;
+      @|com\cleanpvp\HudEditorScreen.java|6763|6770|enabled|field|com.cleanpvp.HudConfig.WidgetSettings|enabled
+      @|com\cleanpvp\HudEditorScreen.java|6799|6807|isInside|method|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z
+      @|com\cleanpvp\HudEditorScreen.java|6808|6814|mouseX|param|com.cleanpvp.HudEditorScreen|renderTogglePanel|(II)V|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|6816|6822|mouseY|param|com.cleanpvp.HudEditorScreen|renderTogglePanel|(II)V|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|6901|6904|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudEditorScreen.java|6905|6913|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudEditorScreen.java|6991|7006|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
+      @|com\cleanpvp\HudEditorScreen.java|7007|7027|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\HudEditorScreen.java|7035|7043|getTitle|method|com.cleanpvp.HudWidget|getTitle|()Ljava/lang/String;
+      @|com\cleanpvp\HudEditorScreen.java|7094|7109|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
+      @|com\cleanpvp\HudEditorScreen.java|7110|7130|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+   Method End: renderTogglePanel(II)V
+   Method Start: handleToggleClick(II)Z
+      @|com\cleanpvp\HudEditorScreen.java|7264|7281|handleToggleClick|method|com.cleanpvp.HudEditorScreen|handleToggleClick|(II)Z
+      @|com\cleanpvp\HudEditorScreen.java|7286|7292|mouseX|param|com.cleanpvp.HudEditorScreen|handleToggleClick|(II)Z|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|7298|7304|mouseY|param|com.cleanpvp.HudEditorScreen|handleToggleClick|(II)Z|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|7359|7364|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\cleanpvp\HudEditorScreen.java|7416|7425|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudEditorScreen.java|7435|7445|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|7446|7455|getConfig|method|com.cleanpvp.HudManager|getConfig|()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudEditorScreen.java|7488|7497|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudEditorScreen.java|7498|7504|values|method|com.cleanpvp.HudWidget|values|()[Lcom/cleanpvp/HudWidget;
+      Field: Array Length, skipping
+      @|com\cleanpvp\HudEditorScreen.java|7534|7543|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudEditorScreen.java|7553|7562|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudEditorScreen.java|7563|7569|values|method|com.cleanpvp.HudWidget|values|()[Lcom/cleanpvp/HudWidget;
+      @|com\cleanpvp\HudEditorScreen.java|7637|7645|isInside|method|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z
+      @|com\cleanpvp\HudEditorScreen.java|7646|7652|mouseX|param|com.cleanpvp.HudEditorScreen|handleToggleClick|(II)Z|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|7654|7660|mouseY|param|com.cleanpvp.HudEditorScreen|handleToggleClick|(II)Z|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|7719|7743|HudConfig.WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+      @|com\cleanpvp\HudEditorScreen.java|7762|7779|getWidgetSettings|method|com.cleanpvp.HudConfig|getWidgetSettings|(Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudConfig$WidgetSettings;
+      @|com\cleanpvp\HudEditorScreen.java|7814|7821|enabled|field|com.cleanpvp.HudConfig.WidgetSettings|enabled
+      @|com\cleanpvp\HudEditorScreen.java|7834|7841|enabled|field|com.cleanpvp.HudConfig.WidgetSettings|enabled
+      @|com\cleanpvp\HudEditorScreen.java|7859|7869|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|7870|7877|persist|method|com.cleanpvp.HudManager|persist|()V
+   Method End: handleToggleClick(II)Z
+   Method Start: topColorModeText()Ljava/lang/String;
+      @|com\cleanpvp\HudEditorScreen.java|7982|7998|topColorModeText|method|com.cleanpvp.HudEditorScreen|topColorModeText|()Ljava/lang/String;
+      @|com\cleanpvp\HudEditorScreen.java|7975|7981|String|class|java.lang.String
+      @|com\cleanpvp\HudEditorScreen.java|8030|8040|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|8041|8050|getConfig|method|com.cleanpvp.HudManager|getConfig|()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudEditorScreen.java|8053|8062|colorMode|field|com.cleanpvp.HudConfig|colorMode
+      @|com\cleanpvp\HudEditorScreen.java|8063|8067|name|method|java.lang.Enum|name|()Ljava/lang/String;
+   Method End: topColorModeText()Ljava/lang/String;
+   Method Start: topFillModeText()Ljava/lang/String;
+      @|com\cleanpvp\HudEditorScreen.java|8097|8112|topFillModeText|method|com.cleanpvp.HudEditorScreen|topFillModeText|()Ljava/lang/String;
+      @|com\cleanpvp\HudEditorScreen.java|8090|8096|String|class|java.lang.String
+      @|com\cleanpvp\HudEditorScreen.java|8143|8153|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|8154|8163|getConfig|method|com.cleanpvp.HudManager|getConfig|()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudEditorScreen.java|8166|8174|fillMode|field|com.cleanpvp.HudConfig|fillMode
+      @|com\cleanpvp\HudEditorScreen.java|8175|8179|name|method|java.lang.Enum|name|()Ljava/lang/String;
+   Method End: topFillModeText()Ljava/lang/String;
+   Method Start: keySizeText()Ljava/lang/String;
+      @|com\cleanpvp\HudEditorScreen.java|8209|8220|keySizeText|method|com.cleanpvp.HudEditorScreen|keySizeText|()Ljava/lang/String;
+      @|com\cleanpvp\HudEditorScreen.java|8202|8208|String|class|java.lang.String
+      @|com\cleanpvp\HudEditorScreen.java|8255|8265|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\HudEditorScreen.java|8266|8275|getConfig|method|com.cleanpvp.HudManager|getConfig|()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudEditorScreen.java|8278|8293|keystrokesScale|field|com.cleanpvp.HudConfig|keystrokesScale
+      @|com\cleanpvp\HudEditorScreen.java|8294|8298|name|method|java.lang.Enum|name|()Ljava/lang/String;
+   Method End: keySizeText()Ljava/lang/String;
+   Method Start: isInside(DDIIII)Z
+      @|com\cleanpvp\HudEditorScreen.java|8329|8337|isInside|method|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z
+      @|com\cleanpvp\HudEditorScreen.java|8345|8351|mouseX|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|8360|8366|mouseY|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|8372|8373|x|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|x|2
+      @|com\cleanpvp\HudEditorScreen.java|8379|8380|y|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|y|3
+      @|com\cleanpvp\HudEditorScreen.java|8386|8391|width|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|width|4
+      @|com\cleanpvp\HudEditorScreen.java|8397|8403|height|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|height|5
+      @|com\cleanpvp\HudEditorScreen.java|8422|8428|mouseX|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|8432|8433|x|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|x|2
+      @|com\cleanpvp\HudEditorScreen.java|8437|8443|mouseX|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|mouseX|0
+      @|com\cleanpvp\HudEditorScreen.java|8447|8448|x|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|x|2
+      @|com\cleanpvp\HudEditorScreen.java|8451|8456|width|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|width|4
+      @|com\cleanpvp\HudEditorScreen.java|8460|8466|mouseY|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|8470|8471|y|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|y|3
+      @|com\cleanpvp\HudEditorScreen.java|8475|8481|mouseY|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|mouseY|1
+      @|com\cleanpvp\HudEditorScreen.java|8485|8486|y|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|y|3
+      @|com\cleanpvp\HudEditorScreen.java|8489|8495|height|param|com.cleanpvp.HudEditorScreen|isInside|(DDIIII)Z|height|5
+   Method End: isInside(DDIIII)Z
+Class End  : com.cleanpvp.HudEditorScreen
+endProcessing com\cleanpvp\HudEditorScreen.java
+
+processing com\cleanpvp\HudManager.java
+@|com\cleanpvp\HudManager.java|8|20|com.cleanpvp|package|com.cleanpvp|(file)
+Class Start: com.cleanpvp.HudManager
+   @|com\cleanpvp\HudManager.java|938|947|HudConfig|class|com.cleanpvp.HudConfig
+   @|com\cleanpvp\HudManager.java|948|954|config|field|com.cleanpvp.HudManager|config|
+   @|com\cleanpvp\HudManager.java|975|985|KeyBinding|class|net.minecraft.client.settings.KeyBinding
+   @|com\cleanpvp\HudManager.java|986|999|openEditorKey|field|com.cleanpvp.HudManager|openEditorKey|
+   @|com\cleanpvp\HudManager.java|1026|1038|ClickTracker|class|com.cleanpvp.ClickTracker
+   @|com\cleanpvp\HudManager.java|1039|1051|clickTracker|field|com.cleanpvp.HudManager|clickTracker|
+   @|com\cleanpvp\HudManager.java|1058|1070|ClickTracker|class|com.cleanpvp.ClickTracker
+   Method Start: HudManager()V
+      @|com\cleanpvp\HudManager.java|1087|1097|HudManager|method|com.cleanpvp.HudManager|HudManager|()V
+   Method End: HudManager()V
+   Method Start: initialize()V
+      @|com\cleanpvp\HudManager.java|1132|1142|initialize|method|com.cleanpvp.HudManager|initialize|()V
+      @|com\cleanpvp\HudManager.java|1155|1161|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|1164|1180|HudConfigManager|class|com.cleanpvp.HudConfigManager
+      @|com\cleanpvp\HudManager.java|1181|1185|load|method|com.cleanpvp.HudConfigManager|load|()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudManager.java|1197|1210|openEditorKey|field|com.cleanpvp.HudManager|openEditorKey
+      @|com\cleanpvp\HudManager.java|1217|1227|KeyBinding|class|net.minecraft.client.settings.KeyBinding
+      @|com\cleanpvp\HudManager.java|1256|1264|Keyboard|class|org.lwjgl.input.Keyboard
+      @|com\cleanpvp\HudManager.java|1265|1275|KEY_RSHIFT|field|org.lwjgl.input.Keyboard|KEY_RSHIFT
+      @|com\cleanpvp\HudManager.java|1298|1312|ClientRegistry|class|net.minecraftforge.fml.client.registry.ClientRegistry
+      @|com\cleanpvp\HudManager.java|1313|1331|registerKeyBinding|method|net.minecraftforge.fml.client.registry.ClientRegistry|registerKeyBinding|(Lnet/minecraft/client/settings/KeyBinding;)V
+      @|com\cleanpvp\HudManager.java|1332|1345|openEditorKey|field|com.cleanpvp.HudManager|openEditorKey
+      @|com\cleanpvp\HudManager.java|1356|1370|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\cleanpvp\HudManager.java|1371|1380|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\cleanpvp\HudManager.java|1381|1389|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\cleanpvp\HudManager.java|1394|1404|HudManager|class|com.cleanpvp.HudManager
+   Method End: initialize()V
+   Method Start: onClientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com\cleanpvp\HudManager.java|1452|1464|onClientTick|method|com.cleanpvp.HudManager|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com\cleanpvp\HudManager.java|1465|1490|TickEvent.ClientTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent
+      @|com\cleanpvp\HudManager.java|1491|1496|event|param|com.cleanpvp.HudManager|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|event|0
+      @|com\cleanpvp\HudManager.java|1512|1517|event|param|com.cleanpvp.HudManager|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|event|0
+      @|com\cleanpvp\HudManager.java|1518|1523|phase|field|net.minecraftforge.fml.common.gameevent.TickEvent|phase
+      @|com\cleanpvp\HudManager.java|1527|1542|TickEvent.Phase|class|net.minecraftforge.fml.common.gameevent.TickEvent.Phase
+      @|com\cleanpvp\HudManager.java|1543|1546|END|field|net.minecraftforge.fml.common.gameevent.TickEvent.Phase|END
+      @|com\cleanpvp\HudManager.java|1562|1571|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudManager.java|1581|1590|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudManager.java|1591|1603|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\cleanpvp\HudManager.java|1619|1631|clickTracker|field|com.cleanpvp.HudManager|clickTracker
+      @|com\cleanpvp\HudManager.java|1632|1636|tick|method|com.cleanpvp.ClickTracker|tick|(Lnet/minecraft/client/Minecraft;)V
+      @|com\cleanpvp\HudManager.java|1662|1675|openEditorKey|field|com.cleanpvp.HudManager|openEditorKey
+      @|com\cleanpvp\HudManager.java|1676|1685|isPressed|method|net.minecraft.client.settings.KeyBinding|isPressed|()Z
+      @|com\cleanpvp\HudManager.java|1714|1730|displayGuiScreen|method|net.minecraft.client.Minecraft|displayGuiScreen|(Lnet/minecraft/client/gui/GuiScreen;)V
+      @|com\cleanpvp\HudManager.java|1735|1750|HudEditorScreen|class|com.cleanpvp.HudEditorScreen
+   Method End: onClientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+   Method Start: onRenderHud(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Text;)V
+      @|com\cleanpvp\HudManager.java|1822|1833|onRenderHud|method|com.cleanpvp.HudManager|onRenderHud|(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Text;)V
+      @|com\cleanpvp\HudManager.java|1834|1861|RenderGameOverlayEvent.Text|class|net.minecraftforge.client.event.RenderGameOverlayEvent.Text
+      @|com\cleanpvp\HudManager.java|1862|1867|event|param|com.cleanpvp.HudManager|onRenderHud|(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Text;)V|event|0
+      @|com\cleanpvp\HudManager.java|1879|1888|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudManager.java|1898|1907|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudManager.java|1908|1920|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\cleanpvp\HudManager.java|1943|1952|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\cleanpvp\HudManager.java|1971|1983|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
+      @|com\cleanpvp\HudManager.java|1984|1991|hideGUI|field|net.minecraft.client.settings.GameSettings|hideGUI
+      @|com\cleanpvp\HudManager.java|2002|2015|currentScreen|field|net.minecraft.client.Minecraft|currentScreen
+      @|com\cleanpvp\HudManager.java|2027|2042|HudEditorScreen|class|com.cleanpvp.HudEditorScreen
+      @|com\cleanpvp\HudManager.java|2090|2099|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudManager.java|2109|2118|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudManager.java|2119|2125|values|method|com.cleanpvp.HudWidget|values|()[Lcom/cleanpvp/HudWidget;
+      @|com\cleanpvp\HudManager.java|2143|2167|HudConfig.WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+      @|com\cleanpvp\HudManager.java|2179|2185|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|2186|2203|getWidgetSettings|method|com.cleanpvp.HudConfig|getWidgetSettings|(Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudConfig$WidgetSettings;
+      @|com\cleanpvp\HudManager.java|2258|2265|enabled|field|com.cleanpvp.HudConfig.WidgetSettings|enabled
+      @|com\cleanpvp\HudManager.java|2285|2297|WidgetBounds|class|com.cleanpvp.HudManager.WidgetBounds
+      @|com\cleanpvp\HudManager.java|2307|2322|getWidgetBounds|method|com.cleanpvp.HudManager|getWidgetBounds|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;
+      @|com\cleanpvp\HudManager.java|2356|2368|renderWidget|method|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V
+      @|com\cleanpvp\HudManager.java|2392|2393|x|field|com.cleanpvp.HudManager.WidgetBounds|x
+      @|com\cleanpvp\HudManager.java|2402|2403|y|field|com.cleanpvp.HudManager.WidgetBounds|y
+   Method End: onRenderHud(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Text;)V
+   Method Start: getConfig()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudManager.java|2472|2481|getConfig|method|com.cleanpvp.HudManager|getConfig|()Lcom/cleanpvp/HudConfig;
+      @|com\cleanpvp\HudManager.java|2462|2471|HudConfig|class|com.cleanpvp.HudConfig
+      @|com\cleanpvp\HudManager.java|2501|2507|config|field|com.cleanpvp.HudManager|config
+   Method End: getConfig()Lcom/cleanpvp/HudConfig;
+   Method Start: persist()V
+      @|com\cleanpvp\HudManager.java|2539|2546|persist|method|com.cleanpvp.HudManager|persist|()V
+      @|com\cleanpvp\HudManager.java|2559|2575|HudConfigManager|class|com.cleanpvp.HudConfigManager
+      @|com\cleanpvp\HudManager.java|2576|2580|save|method|com.cleanpvp.HudConfigManager|save|(Lcom/cleanpvp/HudConfig;)V
+      @|com\cleanpvp\HudManager.java|2581|2587|config|field|com.cleanpvp.HudManager|config
+   Method End: persist()V
+   Method Start: getLeftCps()I
+      @|com\cleanpvp\HudManager.java|2619|2629|getLeftCps|method|com.cleanpvp.HudManager|getLeftCps|()I
+      @|com\cleanpvp\HudManager.java|2649|2661|clickTracker|field|com.cleanpvp.HudManager|clickTracker
+      @|com\cleanpvp\HudManager.java|2662|2672|getLeftCps|method|com.cleanpvp.ClickTracker|getLeftCps|()I
+   Method End: getLeftCps()I
+   Method Start: getRightCps()I
+      @|com\cleanpvp\HudManager.java|2705|2716|getRightCps|method|com.cleanpvp.HudManager|getRightCps|()I
+      @|com\cleanpvp\HudManager.java|2736|2748|clickTracker|field|com.cleanpvp.HudManager|clickTracker
+      @|com\cleanpvp\HudManager.java|2749|2760|getRightCps|method|com.cleanpvp.ClickTracker|getRightCps|()I
+   Method End: getRightCps()I
+   Method Start: getWidgetBounds(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;
+      @|com\cleanpvp\HudManager.java|2802|2817|getWidgetBounds|method|com.cleanpvp.HudManager|getWidgetBounds|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;
+      @|com\cleanpvp\HudManager.java|2789|2801|WidgetBounds|class|com.cleanpvp.HudManager.WidgetBounds
+      @|com\cleanpvp\HudManager.java|2818|2827|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudManager.java|2828|2834|client|param|com.cleanpvp.HudManager|getWidgetBounds|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;|client|0
+      @|com\cleanpvp\HudManager.java|2836|2845|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudManager.java|2846|2852|widget|param|com.cleanpvp.HudManager|getWidgetBounds|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;|widget|1
+      @|com\cleanpvp\HudManager.java|2864|2880|ScaledResolution|class|net.minecraft.client.gui.ScaledResolution
+      @|com\cleanpvp\HudManager.java|2890|2906|ScaledResolution|class|net.minecraft.client.gui.ScaledResolution
+      @|com\cleanpvp\HudManager.java|2907|2913|client|param|com.cleanpvp.HudManager|getWidgetBounds|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;|client|0
+      @|com\cleanpvp\HudManager.java|2924|2948|HudConfig.WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+      @|com\cleanpvp\HudManager.java|2960|2966|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|2967|2984|getWidgetSettings|method|com.cleanpvp.HudConfig|getWidgetSettings|(Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudConfig$WidgetSettings;
+      @|com\cleanpvp\HudManager.java|2985|2991|widget|param|com.cleanpvp.HudManager|getWidgetBounds|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;|widget|1
+      @|com\cleanpvp\HudManager.java|3026|3031|xNorm|field|com.cleanpvp.HudConfig.WidgetSettings|xNorm
+      @|com\cleanpvp\HudManager.java|3037|3051|getScaledWidth|method|net.minecraft.client.gui.ScaledResolution|getScaledWidth|()I
+      @|com\cleanpvp\HudManager.java|3088|3093|yNorm|field|com.cleanpvp.HudConfig.WidgetSettings|yNorm
+      @|com\cleanpvp\HudManager.java|3099|3114|getScaledHeight|method|net.minecraft.client.gui.ScaledResolution|getScaledHeight|()I
+      @|com\cleanpvp\HudManager.java|3138|3150|WidgetBounds|class|com.cleanpvp.HudManager.WidgetBounds
+      @|com\cleanpvp\HudManager.java|3157|3171|getWidgetWidth|method|com.cleanpvp.HudManager|getWidgetWidth|(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I
+      @|com\cleanpvp\HudManager.java|3172|3178|widget|param|com.cleanpvp.HudManager|getWidgetBounds|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;|widget|1
+      @|com\cleanpvp\HudManager.java|3180|3186|client|param|com.cleanpvp.HudManager|getWidgetBounds|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;|client|0
+      @|com\cleanpvp\HudManager.java|3189|3204|getWidgetHeight|method|com.cleanpvp.HudManager|getWidgetHeight|(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I
+      @|com\cleanpvp\HudManager.java|3205|3211|widget|param|com.cleanpvp.HudManager|getWidgetBounds|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;|widget|1
+      @|com\cleanpvp\HudManager.java|3213|3219|client|param|com.cleanpvp.HudManager|getWidgetBounds|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;|client|0
+   Method End: getWidgetBounds(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudManager$WidgetBounds;
+   Method Start: setWidgetPosition(Lcom/cleanpvp/HudWidget;IIII)V
+      @|com\cleanpvp\HudManager.java|3253|3270|setWidgetPosition|method|com.cleanpvp.HudManager|setWidgetPosition|(Lcom/cleanpvp/HudWidget;IIII)V
+      @|com\cleanpvp\HudManager.java|3271|3280|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudManager.java|3281|3287|widget|param|com.cleanpvp.HudManager|setWidgetPosition|(Lcom/cleanpvp/HudWidget;IIII)V|widget|0
+      @|com\cleanpvp\HudManager.java|3293|3294|x|param|com.cleanpvp.HudManager|setWidgetPosition|(Lcom/cleanpvp/HudWidget;IIII)V|x|1
+      @|com\cleanpvp\HudManager.java|3300|3301|y|param|com.cleanpvp.HudManager|setWidgetPosition|(Lcom/cleanpvp/HudWidget;IIII)V|y|2
+      @|com\cleanpvp\HudManager.java|3307|3318|screenWidth|param|com.cleanpvp.HudManager|setWidgetPosition|(Lcom/cleanpvp/HudWidget;IIII)V|screenWidth|3
+      @|com\cleanpvp\HudManager.java|3324|3336|screenHeight|param|com.cleanpvp.HudManager|setWidgetPosition|(Lcom/cleanpvp/HudWidget;IIII)V|screenHeight|4
+      @|com\cleanpvp\HudManager.java|3348|3372|HudConfig.WidgetSettings|class|com.cleanpvp.HudConfig.WidgetSettings
+      @|com\cleanpvp\HudManager.java|3384|3390|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|3391|3408|getWidgetSettings|method|com.cleanpvp.HudConfig|getWidgetSettings|(Lcom/cleanpvp/HudWidget;)Lcom/cleanpvp/HudConfig$WidgetSettings;
+      @|com\cleanpvp\HudManager.java|3409|3415|widget|param|com.cleanpvp.HudManager|setWidgetPosition|(Lcom/cleanpvp/HudWidget;IIII)V|widget|0
+      @|com\cleanpvp\HudManager.java|3435|3440|xNorm|field|com.cleanpvp.HudConfig.WidgetSettings|xNorm
+      @|com\cleanpvp\HudManager.java|3452|3453|x|param|com.cleanpvp.HudManager|setWidgetPosition|(Lcom/cleanpvp/HudWidget;IIII)V|x|1
+      @|com\cleanpvp\HudManager.java|3456|3460|Math|class|java.lang.Math
+      @|com\cleanpvp\HudManager.java|3461|3464|max|method|java.lang.Math|max|(II)I
+      @|com\cleanpvp\HudManager.java|3468|3479|screenWidth|param|com.cleanpvp.HudManager|setWidgetPosition|(Lcom/cleanpvp/HudWidget;IIII)V|screenWidth|3
+      @|com\cleanpvp\HudManager.java|3499|3504|yNorm|field|com.cleanpvp.HudConfig.WidgetSettings|yNorm
+      @|com\cleanpvp\HudManager.java|3516|3517|y|param|com.cleanpvp.HudManager|setWidgetPosition|(Lcom/cleanpvp/HudWidget;IIII)V|y|2
+      @|com\cleanpvp\HudManager.java|3520|3524|Math|class|java.lang.Math
+      @|com\cleanpvp\HudManager.java|3525|3528|max|method|java.lang.Math|max|(II)I
+      @|com\cleanpvp\HudManager.java|3532|3544|screenHeight|param|com.cleanpvp.HudManager|setWidgetPosition|(Lcom/cleanpvp/HudWidget;IIII)V|screenHeight|4
+   Method End: setWidgetPosition(Lcom/cleanpvp/HudWidget;IIII)V
+   Method Start: renderWidget(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V
+      @|com\cleanpvp\HudManager.java|3577|3589|renderWidget|method|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V
+      @|com\cleanpvp\HudManager.java|3590|3599|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudManager.java|3600|3606|client|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|client|0
+      @|com\cleanpvp\HudManager.java|3608|3617|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudManager.java|3618|3624|widget|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|widget|1
+      @|com\cleanpvp\HudManager.java|3630|3631|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|3637|3638|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|3648|3656|inEditor|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|inEditor|4
+      @|com\cleanpvp\HudManager.java|3680|3694|getWidgetWidth|method|com.cleanpvp.HudManager|getWidgetWidth|(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I
+      @|com\cleanpvp\HudManager.java|3695|3701|widget|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|widget|1
+      @|com\cleanpvp\HudManager.java|3703|3709|client|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|client|0
+      @|com\cleanpvp\HudManager.java|3733|3748|getWidgetHeight|method|com.cleanpvp.HudManager|getWidgetHeight|(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I
+      @|com\cleanpvp\HudManager.java|3749|3755|widget|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|widget|1
+      @|com\cleanpvp\HudManager.java|3757|3763|client|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|client|0
+      @|com\cleanpvp\HudManager.java|3786|3805|currentOutlineColor|method|com.cleanpvp.HudManager|currentOutlineColor|()I
+      @|com\cleanpvp\HudManager.java|3859|3865|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|3866|3874|fillMode|field|com.cleanpvp.HudConfig|fillMode
+      @|com\cleanpvp\HudManager.java|3878|3896|HudConfig.FillMode|class|com.cleanpvp.HudConfig.FillMode
+      @|com\cleanpvp\HudManager.java|3897|3906|SOLID_BOX|field|com.cleanpvp.HudConfig.FillMode|SOLID_BOX
+      @|com\cleanpvp\HudManager.java|3922|3925|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudManager.java|3926|3934|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudManager.java|3935|3936|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|3938|3939|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|3941|3942|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|3952|3953|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|4053|4056|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudManager.java|4057|4065|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudManager.java|4066|4067|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|4069|4070|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|4072|4073|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|4083|4084|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|4106|4109|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudManager.java|4110|4118|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudManager.java|4119|4120|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|4122|4123|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|4138|4139|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|4149|4150|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|4177|4180|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudManager.java|4181|4189|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudManager.java|4190|4191|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|4193|4194|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|4196|4197|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|4203|4204|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|4231|4234|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudManager.java|4235|4243|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudManager.java|4244|4245|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|4259|4260|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|4262|4263|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|4273|4274|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|4306|4314|inEditor|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|inEditor|4
+      @|com\cleanpvp\HudManager.java|4375|4386|drawOutline|method|com.cleanpvp.HudManager|drawOutline|(IIIII)V
+      @|com\cleanpvp\HudManager.java|4387|4388|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|4394|4395|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|4456|4468|FontRenderer|class|net.minecraft.client.gui.FontRenderer
+      @|com\cleanpvp\HudManager.java|4474|4480|client|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|client|0
+      @|com\cleanpvp\HudManager.java|4481|4496|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|com\cleanpvp\HudManager.java|4514|4520|widget|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|widget|1
+      @|com\cleanpvp\HudManager.java|4541|4551|KEYSTROKES|field|com.cleanpvp.HudWidget|KEYSTROKES
+      @|com\cleanpvp\HudManager.java|4569|4585|renderKeystrokes|method|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V
+      @|com\cleanpvp\HudManager.java|4586|4592|client|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|client|0
+      @|com\cleanpvp\HudManager.java|4594|4595|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|4597|4598|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|4641|4644|FPS|field|com.cleanpvp.HudWidget|FPS
+      @|com\cleanpvp\HudManager.java|4665|4685|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\HudManager.java|4696|4705|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudManager.java|4706|4717|getDebugFPS|method|net.minecraft.client.Minecraft|getDebugFPS|()I
+      @|com\cleanpvp\HudManager.java|4721|4722|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|4728|4729|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|4788|4791|CPS|field|com.cleanpvp.HudWidget|CPS
+      @|com\cleanpvp\HudManager.java|4812|4832|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\HudManager.java|4843|4853|getLeftCps|method|com.cleanpvp.HudManager|getLeftCps|()I
+      @|com\cleanpvp\HudManager.java|4866|4877|getRightCps|method|com.cleanpvp.HudManager|getRightCps|()I
+      @|com\cleanpvp\HudManager.java|4881|4882|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|4888|4889|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|4948|4953|ARMOR|field|com.cleanpvp.HudWidget|ARMOR
+      @|com\cleanpvp\HudManager.java|4971|4982|renderArmor|method|com.cleanpvp.HudManager|renderArmor|(Lnet/minecraft/client/Minecraft;II)V
+      @|com\cleanpvp\HudManager.java|4983|4989|client|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|client|0
+      @|com\cleanpvp\HudManager.java|4991|4992|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|4994|4995|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|5038|5045|POTIONS|field|com.cleanpvp.HudWidget|POTIONS
+      @|com\cleanpvp\HudManager.java|5063|5076|renderPotions|method|com.cleanpvp.HudManager|renderPotions|(Lnet/minecraft/client/Minecraft;II)V
+      @|com\cleanpvp\HudManager.java|5077|5083|client|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|client|0
+      @|com\cleanpvp\HudManager.java|5085|5086|x|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|5088|5089|y|param|com.cleanpvp.HudManager|renderWidget|(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V|y|3
+   Method End: renderWidget(Lnet/minecraft/client/Minecraft;Lcom/cleanpvp/HudWidget;IIZ)V
+   Method Start: renderKeystrokes(Lnet/minecraft/client/Minecraft;II)V
+      @|com\cleanpvp\HudManager.java|5156|5172|renderKeystrokes|method|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V
+      @|com\cleanpvp\HudManager.java|5173|5182|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudManager.java|5183|5189|client|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|5195|5196|x|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|x|1
+      @|com\cleanpvp\HudManager.java|5202|5203|y|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|y|2
+      @|com\cleanpvp\HudManager.java|5229|5235|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|5236|5251|keystrokesScale|field|com.cleanpvp.HudConfig|keystrokesScale
+      @|com\cleanpvp\HudManager.java|5252|5258|factor|method|com.cleanpvp.HudConfig.WidgetScale|factor|()F
+      @|com\cleanpvp\HudManager.java|5379|5392|drawSimpleKey|method|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V
+      @|com\cleanpvp\HudManager.java|5393|5399|client|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|5406|5407|x|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|x|1
+      @|com\cleanpvp\HudManager.java|5424|5425|y|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|y|2
+      @|com\cleanpvp\HudManager.java|5439|5445|client|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|5446|5458|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
+      @|com\cleanpvp\HudManager.java|5459|5473|keyBindForward|field|net.minecraft.client.settings.GameSettings|keyBindForward
+      @|com\cleanpvp\HudManager.java|5474|5483|isKeyDown|method|net.minecraft.client.settings.KeyBinding|isKeyDown|()Z
+      @|com\cleanpvp\HudManager.java|5496|5509|drawSimpleKey|method|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V
+      @|com\cleanpvp\HudManager.java|5510|5516|client|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|5523|5524|x|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|x|1
+      @|com\cleanpvp\HudManager.java|5530|5531|y|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|y|2
+      @|com\cleanpvp\HudManager.java|5556|5562|client|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|5563|5575|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
+      @|com\cleanpvp\HudManager.java|5576|5587|keyBindLeft|field|net.minecraft.client.settings.GameSettings|keyBindLeft
+      @|com\cleanpvp\HudManager.java|5588|5597|isKeyDown|method|net.minecraft.client.settings.KeyBinding|isKeyDown|()Z
+      @|com\cleanpvp\HudManager.java|5610|5623|drawSimpleKey|method|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V
+      @|com\cleanpvp\HudManager.java|5624|5630|client|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|5637|5638|x|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|x|1
+      @|com\cleanpvp\HudManager.java|5655|5656|y|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|y|2
+      @|com\cleanpvp\HudManager.java|5681|5687|client|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|5688|5700|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
+      @|com\cleanpvp\HudManager.java|5701|5712|keyBindBack|field|net.minecraft.client.settings.GameSettings|keyBindBack
+      @|com\cleanpvp\HudManager.java|5713|5722|isKeyDown|method|net.minecraft.client.settings.KeyBinding|isKeyDown|()Z
+      @|com\cleanpvp\HudManager.java|5735|5748|drawSimpleKey|method|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V
+      @|com\cleanpvp\HudManager.java|5749|5755|client|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|5762|5763|x|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|x|1
+      @|com\cleanpvp\HudManager.java|5786|5787|y|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|y|2
+      @|com\cleanpvp\HudManager.java|5812|5818|client|param|com.cleanpvp.HudManager|renderKeystrokes|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|5819|5831|gameSettings|field|net.minecraft.client.Minecraft|gameSettings
+      @|com\cleanpvp\HudManager.java|5832|5844|keyBindRight|field|net.minecraft.client.settings.GameSettings|keyBindRight
+      @|com\cleanpvp\HudManager.java|5845|5854|isKeyDown|method|net.minecraft.client.settings.KeyBinding|isKeyDown|()Z
+   Method End: renderKeystrokes(Lnet/minecraft/client/Minecraft;II)V
+   Method Start: drawSimpleKey(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V
+      @|com\cleanpvp\HudManager.java|5890|5903|drawSimpleKey|method|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V
+      @|com\cleanpvp\HudManager.java|5904|5913|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudManager.java|5914|5920|client|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|client|0
+      @|com\cleanpvp\HudManager.java|5922|5928|String|class|java.lang.String
+      @|com\cleanpvp\HudManager.java|5929|5933|text|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|text|1
+      @|com\cleanpvp\HudManager.java|5939|5940|x|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|5946|5947|y|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|5953|5954|w|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|w|4
+      @|com\cleanpvp\HudManager.java|5960|5961|h|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|h|5
+      @|com\cleanpvp\HudManager.java|5971|5975|down|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|down|6
+      @|com\cleanpvp\HudManager.java|5999|6018|currentOutlineColor|method|com.cleanpvp.HudManager|currentOutlineColor|()I
+      @|com\cleanpvp\HudManager.java|6030|6033|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudManager.java|6034|6042|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudManager.java|6043|6044|x|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|6046|6047|y|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|6049|6050|x|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|6053|6054|w|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|w|4
+      @|com\cleanpvp\HudManager.java|6056|6057|y|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|6060|6061|h|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|h|5
+      @|com\cleanpvp\HudManager.java|6063|6067|down|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|down|6
+      @|com\cleanpvp\HudManager.java|6127|6138|drawOutline|method|com.cleanpvp.HudManager|drawOutline|(IIIII)V
+      @|com\cleanpvp\HudManager.java|6139|6140|x|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|6142|6143|y|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|6145|6146|w|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|w|4
+      @|com\cleanpvp\HudManager.java|6148|6149|h|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|h|5
+      @|com\cleanpvp\HudManager.java|6167|6173|client|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|client|0
+      @|com\cleanpvp\HudManager.java|6174|6189|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|com\cleanpvp\HudManager.java|6190|6210|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\HudManager.java|6211|6215|text|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|text|1
+      @|com\cleanpvp\HudManager.java|6217|6218|x|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|x|2
+      @|com\cleanpvp\HudManager.java|6221|6222|w|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|w|4
+      @|com\cleanpvp\HudManager.java|6227|6233|client|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|client|0
+      @|com\cleanpvp\HudManager.java|6234|6249|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|com\cleanpvp\HudManager.java|6250|6264|getStringWidth|method|net.minecraft.client.gui.FontRenderer|getStringWidth|(Ljava/lang/String;)I
+      @|com\cleanpvp\HudManager.java|6265|6269|text|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|text|1
+      @|com\cleanpvp\HudManager.java|6274|6275|y|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|y|3
+      @|com\cleanpvp\HudManager.java|6278|6279|h|param|com.cleanpvp.HudManager|drawSimpleKey|(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V|h|5
+   Method End: drawSimpleKey(Lnet/minecraft/client/Minecraft;Ljava/lang/String;IIIIZ)V
+   Method Start: renderArmor(Lnet/minecraft/client/Minecraft;II)V
+      @|com\cleanpvp\HudManager.java|6331|6342|renderArmor|method|com.cleanpvp.HudManager|renderArmor|(Lnet/minecraft/client/Minecraft;II)V
+      @|com\cleanpvp\HudManager.java|6343|6352|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudManager.java|6353|6359|client|param|com.cleanpvp.HudManager|renderArmor|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|6365|6366|x|param|com.cleanpvp.HudManager|renderArmor|(Lnet/minecraft/client/Minecraft;II)V|x|1
+      @|com\cleanpvp\HudManager.java|6372|6373|y|param|com.cleanpvp.HudManager|renderArmor|(Lnet/minecraft/client/Minecraft;II)V|y|2
+      @|com\cleanpvp\HudManager.java|6394|6395|y|param|com.cleanpvp.HudManager|renderArmor|(Lnet/minecraft/client/Minecraft;II)V|y|2
+      @|com\cleanpvp\HudManager.java|6452|6461|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\cleanpvp\HudManager.java|6466|6472|client|param|com.cleanpvp.HudManager|renderArmor|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|6473|6482|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\cleanpvp\HudManager.java|6483|6492|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com\cleanpvp\HudManager.java|6493|6507|armorInventory|field|net.minecraft.entity.player.InventoryPlayer|armorInventory
+      @|com\cleanpvp\HudManager.java|6557|6569|RenderHelper|class|net.minecraft.client.renderer.RenderHelper
+      @|com\cleanpvp\HudManager.java|6570|6599|enableGUIStandardItemLighting|method|net.minecraft.client.renderer.RenderHelper|enableGUIStandardItemLighting|()V
+      @|com\cleanpvp\HudManager.java|6619|6625|client|param|com.cleanpvp.HudManager|renderArmor|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|6626|6639|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/entity/RenderItem;
+      @|com\cleanpvp\HudManager.java|6642|6668|renderItemAndEffectIntoGUI|method|net.minecraft.client.renderer.entity.RenderItem|renderItemAndEffectIntoGUI|(Lnet/minecraft/item/ItemStack;II)V
+      @|com\cleanpvp\HudManager.java|6672|6673|x|param|com.cleanpvp.HudManager|renderArmor|(Lnet/minecraft/client/Minecraft;II)V|x|1
+      @|com\cleanpvp\HudManager.java|6704|6716|RenderHelper|class|net.minecraft.client.renderer.RenderHelper
+      @|com\cleanpvp\HudManager.java|6717|6744|disableStandardItemLighting|method|net.minecraft.client.renderer.RenderHelper|disableStandardItemLighting|()V
+      @|com\cleanpvp\HudManager.java|6764|6770|client|param|com.cleanpvp.HudManager|renderArmor|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|6771|6786|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|com\cleanpvp\HudManager.java|6787|6807|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\HudManager.java|6808|6822|durabilityText|method|com.cleanpvp.HudManager|durabilityText|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com\cleanpvp\HudManager.java|6827|6828|x|param|com.cleanpvp.HudManager|renderArmor|(Lnet/minecraft/client/Minecraft;II)V|x|1
+      @|com\cleanpvp\HudManager.java|6893|6899|client|param|com.cleanpvp.HudManager|renderArmor|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|6900|6915|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|com\cleanpvp\HudManager.java|6916|6936|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\HudManager.java|6945|6946|x|param|com.cleanpvp.HudManager|renderArmor|(Lnet/minecraft/client/Minecraft;II)V|x|1
+   Method End: renderArmor(Lnet/minecraft/client/Minecraft;II)V
+   Method Start: renderPotions(Lnet/minecraft/client/Minecraft;II)V
+      @|com\cleanpvp\HudManager.java|7051|7064|renderPotions|method|com.cleanpvp.HudManager|renderPotions|(Lnet/minecraft/client/Minecraft;II)V
+      @|com\cleanpvp\HudManager.java|7065|7074|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudManager.java|7075|7081|client|param|com.cleanpvp.HudManager|renderPotions|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|7087|7088|x|param|com.cleanpvp.HudManager|renderPotions|(Lnet/minecraft/client/Minecraft;II)V|x|1
+      @|com\cleanpvp\HudManager.java|7094|7095|y|param|com.cleanpvp.HudManager|renderPotions|(Lnet/minecraft/client/Minecraft;II)V|y|2
+      @|com\cleanpvp\HudManager.java|7116|7117|y|param|com.cleanpvp.HudManager|renderPotions|(Lnet/minecraft/client/Minecraft;II)V|y|2
+      @|com\cleanpvp\HudManager.java|7131|7141|Collection|class|java.util.Collection
+      @|com\cleanpvp\HudManager.java|7142|7154|PotionEffect|class|net.minecraft.potion.PotionEffect
+      @|com\cleanpvp\HudManager.java|7166|7172|client|param|com.cleanpvp.HudManager|renderPotions|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|7173|7182|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\cleanpvp\HudManager.java|7183|7205|getActivePotionEffects|method|net.minecraft.entity.EntityLivingBase|getActivePotionEffects|()Ljava/util/Collection;
+      @|com\cleanpvp\HudManager.java|7229|7236|isEmpty|method|java.util.Collection|isEmpty|()Z
+      @|com\cleanpvp\HudManager.java|7254|7260|client|param|com.cleanpvp.HudManager|renderPotions|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|7261|7276|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|com\cleanpvp\HudManager.java|7277|7297|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\HudManager.java|7312|7313|x|param|com.cleanpvp.HudManager|renderPotions|(Lnet/minecraft/client/Minecraft;II)V|x|1
+      @|com\cleanpvp\HudManager.java|7379|7391|PotionEffect|class|net.minecraft.potion.PotionEffect
+      @|com\cleanpvp\HudManager.java|7419|7425|String|class|java.lang.String
+      @|com\cleanpvp\HudManager.java|7430|7443|StatCollector|class|net.minecraft.util.StatCollector
+      @|com\cleanpvp\HudManager.java|7444|7460|translateToLocal|method|net.minecraft.util.StatCollector|translateToLocal|(Ljava/lang/String;)Ljava/lang/String;
+      @|com\cleanpvp\HudManager.java|7463|7476|getEffectName|method|net.minecraft.potion.PotionEffect|getEffectName|()Ljava/lang/String;
+      @|com\cleanpvp\HudManager.java|7488|7494|Potion|class|net.minecraft.potion.Potion
+      @|com\cleanpvp\HudManager.java|7495|7512|getDurationString|method|net.minecraft.potion.Potion|getDurationString|(Lnet/minecraft/potion/PotionEffect;)Ljava/lang/String;
+      @|com\cleanpvp\HudManager.java|7529|7535|client|param|com.cleanpvp.HudManager|renderPotions|(Lnet/minecraft/client/Minecraft;II)V|client|0
+      @|com\cleanpvp\HudManager.java|7536|7551|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|com\cleanpvp\HudManager.java|7552|7572|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\HudManager.java|7576|7577|x|param|com.cleanpvp.HudManager|renderPotions|(Lnet/minecraft/client/Minecraft;II)V|x|1
+   Method End: renderPotions(Lnet/minecraft/client/Minecraft;II)V
+   Method Start: getWidgetWidth(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I
+      @|com\cleanpvp\HudManager.java|7661|7675|getWidgetWidth|method|com.cleanpvp.HudManager|getWidgetWidth|(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I
+      @|com\cleanpvp\HudManager.java|7676|7685|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudManager.java|7686|7692|widget|param|com.cleanpvp.HudManager|getWidgetWidth|(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I|widget|0
+      @|com\cleanpvp\HudManager.java|7694|7703|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudManager.java|7704|7710|client|param|com.cleanpvp.HudManager|getWidgetWidth|(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I|client|1
+      @|com\cleanpvp\HudManager.java|7730|7736|widget|param|com.cleanpvp.HudManager|getWidgetWidth|(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I|widget|0
+      @|com\cleanpvp\HudManager.java|7757|7767|KEYSTROKES|field|com.cleanpvp.HudWidget|KEYSTROKES
+      @|com\cleanpvp\HudManager.java|7787|7793|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|7794|7809|keystrokesScale|field|com.cleanpvp.HudConfig|keystrokesScale
+      @|com\cleanpvp\HudManager.java|7810|7816|factor|method|com.cleanpvp.HudConfig.WidgetScale|factor|()F
+      @|com\cleanpvp\HudManager.java|7838|7841|FPS|field|com.cleanpvp.HudWidget|FPS
+      @|com\cleanpvp\HudManager.java|7871|7874|CPS|field|com.cleanpvp.HudWidget|CPS
+      @|com\cleanpvp\HudManager.java|7904|7909|ARMOR|field|com.cleanpvp.HudWidget|ARMOR
+      @|com\cleanpvp\HudManager.java|7939|7946|POTIONS|field|com.cleanpvp.HudWidget|POTIONS
+   Method End: getWidgetWidth(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I
+   Method Start: getWidgetHeight(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I
+      @|com\cleanpvp\HudManager.java|8030|8045|getWidgetHeight|method|com.cleanpvp.HudManager|getWidgetHeight|(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I
+      @|com\cleanpvp\HudManager.java|8046|8055|HudWidget|class|com.cleanpvp.HudWidget
+      @|com\cleanpvp\HudManager.java|8056|8062|widget|param|com.cleanpvp.HudManager|getWidgetHeight|(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I|widget|0
+      @|com\cleanpvp\HudManager.java|8064|8073|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\HudManager.java|8074|8080|client|param|com.cleanpvp.HudManager|getWidgetHeight|(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I|client|1
+      @|com\cleanpvp\HudManager.java|8100|8106|widget|param|com.cleanpvp.HudManager|getWidgetHeight|(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I|widget|0
+      @|com\cleanpvp\HudManager.java|8127|8137|KEYSTROKES|field|com.cleanpvp.HudWidget|KEYSTROKES
+      @|com\cleanpvp\HudManager.java|8157|8163|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|8164|8179|keystrokesScale|field|com.cleanpvp.HudConfig|keystrokesScale
+      @|com\cleanpvp\HudManager.java|8180|8186|factor|method|com.cleanpvp.HudConfig.WidgetScale|factor|()F
+      @|com\cleanpvp\HudManager.java|8208|8211|FPS|field|com.cleanpvp.HudWidget|FPS
+      @|com\cleanpvp\HudManager.java|8241|8244|CPS|field|com.cleanpvp.HudWidget|CPS
+      @|com\cleanpvp\HudManager.java|8274|8279|ARMOR|field|com.cleanpvp.HudWidget|ARMOR
+      @|com\cleanpvp\HudManager.java|8309|8316|POTIONS|field|com.cleanpvp.HudWidget|POTIONS
+   Method End: getWidgetHeight(Lcom/cleanpvp/HudWidget;Lnet/minecraft/client/Minecraft;)I
+   Method Start: currentOutlineColor()I
+      @|com\cleanpvp\HudManager.java|8400|8419|currentOutlineColor|method|com.cleanpvp.HudManager|currentOutlineColor|()I
+      @|com\cleanpvp\HudManager.java|8436|8442|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|8443|8452|colorMode|field|com.cleanpvp.HudConfig|colorMode
+      @|com\cleanpvp\HudManager.java|8456|8475|HudConfig.ColorMode|class|com.cleanpvp.HudConfig.ColorMode
+      @|com\cleanpvp\HudManager.java|8476|8483|RAINBOW|field|com.cleanpvp.HudConfig.ColorMode|RAINBOW
+      @|com\cleanpvp\HudManager.java|8506|8511|Color|class|java.awt.Color
+      @|com\cleanpvp\HudManager.java|8512|8520|HSBtoRGB|method|java.awt.Color|HSBtoRGB|(FFF)I
+      @|com\cleanpvp\HudManager.java|8522|8528|System|class|java.lang.System
+      @|com\cleanpvp\HudManager.java|8529|8546|currentTimeMillis|method|java.lang.System|currentTimeMillis|()J
+      @|com\cleanpvp\HudManager.java|8603|8609|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|8610|8620|solidColor|field|com.cleanpvp.HudConfig|solidColor
+   Method End: currentOutlineColor()I
+   Method Start: durabilityText(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com\cleanpvp\HudManager.java|8655|8669|durabilityText|method|com.cleanpvp.HudManager|durabilityText|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+      @|com\cleanpvp\HudManager.java|8648|8654|String|class|java.lang.String
+      @|com\cleanpvp\HudManager.java|8670|8679|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\cleanpvp\HudManager.java|8680|8685|stack|param|com.cleanpvp.HudManager|durabilityText|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|com\cleanpvp\HudManager.java|8702|8707|stack|param|com.cleanpvp.HudManager|durabilityText|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|com\cleanpvp\HudManager.java|8708|8729|isItemStackDamageable|method|net.minecraft.item.ItemStack|isItemStackDamageable|()Z
+      @|com\cleanpvp\HudManager.java|8740|8745|stack|param|com.cleanpvp.HudManager|durabilityText|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|com\cleanpvp\HudManager.java|8746|8760|getDisplayName|method|net.minecraft.item.ItemStack|getDisplayName|()Ljava/lang/String;
+      @|com\cleanpvp\HudManager.java|8780|8785|stack|param|com.cleanpvp.HudManager|durabilityText|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|com\cleanpvp\HudManager.java|8786|8798|getMaxDamage|method|net.minecraft.item.ItemStack|getMaxDamage|()I
+      @|com\cleanpvp\HudManager.java|8803|8808|stack|param|com.cleanpvp.HudManager|durabilityText|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|com\cleanpvp\HudManager.java|8809|8822|getItemDamage|method|net.minecraft.item.ItemStack|getItemDamage|()I
+      @|com\cleanpvp\HudManager.java|8834|8839|stack|param|com.cleanpvp.HudManager|durabilityText|(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;|stack|0
+      @|com\cleanpvp\HudManager.java|8840|8852|getMaxDamage|method|net.minecraft.item.ItemStack|getMaxDamage|()I
+   Method End: durabilityText(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;
+   Method Start: drawOutline(IIIII)V
+      @|com\cleanpvp\HudManager.java|8886|8897|drawOutline|method|com.cleanpvp.HudManager|drawOutline|(IIIII)V
+      @|com\cleanpvp\HudManager.java|8902|8903|x|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|x|0
+      @|com\cleanpvp\HudManager.java|8909|8910|y|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|y|1
+      @|com\cleanpvp\HudManager.java|8916|8917|w|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|w|2
+      @|com\cleanpvp\HudManager.java|8923|8924|h|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|h|3
+      @|com\cleanpvp\HudManager.java|8930|8935|color|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|color|4
+      @|com\cleanpvp\HudManager.java|8947|8950|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudManager.java|8951|8959|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudManager.java|8960|8961|x|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|x|0
+      @|com\cleanpvp\HudManager.java|8963|8964|y|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|y|1
+      @|com\cleanpvp\HudManager.java|8966|8967|x|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|x|0
+      @|com\cleanpvp\HudManager.java|8970|8971|w|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|w|2
+      @|com\cleanpvp\HudManager.java|8973|8974|y|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|y|1
+      @|com\cleanpvp\HudManager.java|8980|8985|color|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|color|4
+      @|com\cleanpvp\HudManager.java|8996|8999|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudManager.java|9000|9008|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudManager.java|9009|9010|x|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|x|0
+      @|com\cleanpvp\HudManager.java|9012|9013|y|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|y|1
+      @|com\cleanpvp\HudManager.java|9016|9017|h|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|h|3
+      @|com\cleanpvp\HudManager.java|9023|9024|x|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|x|0
+      @|com\cleanpvp\HudManager.java|9027|9028|w|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|w|2
+      @|com\cleanpvp\HudManager.java|9030|9031|y|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|y|1
+      @|com\cleanpvp\HudManager.java|9034|9035|h|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|h|3
+      @|com\cleanpvp\HudManager.java|9037|9042|color|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|color|4
+      @|com\cleanpvp\HudManager.java|9053|9056|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudManager.java|9057|9065|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudManager.java|9066|9067|x|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|x|0
+      @|com\cleanpvp\HudManager.java|9069|9070|y|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|y|1
+      @|com\cleanpvp\HudManager.java|9072|9073|x|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|x|0
+      @|com\cleanpvp\HudManager.java|9079|9080|y|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|y|1
+      @|com\cleanpvp\HudManager.java|9083|9084|h|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|h|3
+      @|com\cleanpvp\HudManager.java|9086|9091|color|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|color|4
+      @|com\cleanpvp\HudManager.java|9102|9105|Gui|class|net.minecraft.client.gui.Gui
+      @|com\cleanpvp\HudManager.java|9106|9114|drawRect|method|net.minecraft.client.gui.Gui|drawRect|(IIIII)V
+      @|com\cleanpvp\HudManager.java|9115|9116|x|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|x|0
+      @|com\cleanpvp\HudManager.java|9119|9120|w|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|w|2
+      @|com\cleanpvp\HudManager.java|9126|9127|y|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|y|1
+      @|com\cleanpvp\HudManager.java|9129|9130|x|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|x|0
+      @|com\cleanpvp\HudManager.java|9133|9134|w|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|w|2
+      @|com\cleanpvp\HudManager.java|9136|9137|y|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|y|1
+      @|com\cleanpvp\HudManager.java|9140|9141|h|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|h|3
+      @|com\cleanpvp\HudManager.java|9143|9148|color|param|com.cleanpvp.HudManager|drawOutline|(IIIII)V|color|4
+   Method End: drawOutline(IIIII)V
+   Method Start: cycleColorMode()V
+      @|com\cleanpvp\HudManager.java|9181|9195|cycleColorMode|method|com.cleanpvp.HudManager|cycleColorMode|()V
+      @|com\cleanpvp\HudManager.java|9200|9206|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|9207|9216|colorMode|field|com.cleanpvp.HudConfig|colorMode
+      @|com\cleanpvp\HudManager.java|9219|9225|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|9226|9235|colorMode|field|com.cleanpvp.HudConfig|colorMode
+      @|com\cleanpvp\HudManager.java|9239|9258|HudConfig.ColorMode|class|com.cleanpvp.HudConfig.ColorMode
+      @|com\cleanpvp\HudManager.java|9259|9264|SOLID|field|com.cleanpvp.HudConfig.ColorMode|SOLID
+      @|com\cleanpvp\HudManager.java|9267|9286|HudConfig.ColorMode|class|com.cleanpvp.HudConfig.ColorMode
+      @|com\cleanpvp\HudManager.java|9287|9294|RAINBOW|field|com.cleanpvp.HudConfig.ColorMode|RAINBOW
+      @|com\cleanpvp\HudManager.java|9297|9316|HudConfig.ColorMode|class|com.cleanpvp.HudConfig.ColorMode
+      @|com\cleanpvp\HudManager.java|9317|9322|SOLID|field|com.cleanpvp.HudConfig.ColorMode|SOLID
+   Method End: cycleColorMode()V
+   Method Start: cycleFillMode()V
+      @|com\cleanpvp\HudManager.java|9349|9362|cycleFillMode|method|com.cleanpvp.HudManager|cycleFillMode|()V
+      @|com\cleanpvp\HudManager.java|9367|9373|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|9374|9382|fillMode|field|com.cleanpvp.HudConfig|fillMode
+      @|com\cleanpvp\HudManager.java|9385|9391|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|9392|9400|fillMode|field|com.cleanpvp.HudConfig|fillMode
+      @|com\cleanpvp\HudManager.java|9404|9422|HudConfig.FillMode|class|com.cleanpvp.HudConfig.FillMode
+      @|com\cleanpvp\HudManager.java|9423|9435|OUTLINE_ONLY|field|com.cleanpvp.HudConfig.FillMode|OUTLINE_ONLY
+      @|com\cleanpvp\HudManager.java|9438|9456|HudConfig.FillMode|class|com.cleanpvp.HudConfig.FillMode
+      @|com\cleanpvp\HudManager.java|9457|9466|SOLID_BOX|field|com.cleanpvp.HudConfig.FillMode|SOLID_BOX
+      @|com\cleanpvp\HudManager.java|9469|9487|HudConfig.FillMode|class|com.cleanpvp.HudConfig.FillMode
+      @|com\cleanpvp\HudManager.java|9488|9500|OUTLINE_ONLY|field|com.cleanpvp.HudConfig.FillMode|OUTLINE_ONLY
+   Method End: cycleFillMode()V
+   Method Start: cycleSolidColor()V
+      @|com\cleanpvp\HudManager.java|9527|9542|cycleSolidColor|method|com.cleanpvp.HudManager|cycleSolidColor|()V
+      Field: Array Length, skipping
+      @|com\cleanpvp\HudManager.java|9711|9717|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|9718|9728|solidColor|field|com.cleanpvp.HudConfig|solidColor
+      Field: Array Length, skipping
+      @|com\cleanpvp\HudManager.java|9771|9777|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|9778|9788|solidColor|field|com.cleanpvp.HudConfig|solidColor
+   Method End: cycleSolidColor()V
+   Method Start: cycleKeystrokesScale()V
+      @|com\cleanpvp\HudManager.java|9828|9848|cycleKeystrokesScale|method|com.cleanpvp.HudManager|cycleKeystrokesScale|()V
+      @|com\cleanpvp\HudManager.java|9853|9859|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|9860|9875|keystrokesScale|field|com.cleanpvp.HudConfig|keystrokesScale
+      @|com\cleanpvp\HudManager.java|9878|9884|config|field|com.cleanpvp.HudManager|config
+      @|com\cleanpvp\HudManager.java|9885|9900|keystrokesScale|field|com.cleanpvp.HudConfig|keystrokesScale
+      @|com\cleanpvp\HudManager.java|9901|9905|next|method|com.cleanpvp.HudConfig.WidgetScale|next|()Lcom/cleanpvp/HudConfig$WidgetScale;
+   Method End: cycleKeystrokesScale()V
+   Class Start: com.cleanpvp.HudManager.WidgetBounds
+      @|com\cleanpvp\HudManager.java|9976|9977|x|field|com.cleanpvp.HudManager.WidgetBounds|x|
+      @|com\cleanpvp\HudManager.java|9979|9980|y|field|com.cleanpvp.HudManager.WidgetBounds|y|
+      @|com\cleanpvp\HudManager.java|9982|9987|width|field|com.cleanpvp.HudManager.WidgetBounds|width|
+      @|com\cleanpvp\HudManager.java|9989|9995|height|field|com.cleanpvp.HudManager.WidgetBounds|height|
+      Method Start: WidgetBounds(IIII)V
+         @|com\cleanpvp\HudManager.java|10012|10024|WidgetBounds|method|com.cleanpvp.HudManager.WidgetBounds|WidgetBounds|(IIII)V
+         @|com\cleanpvp\HudManager.java|10029|10030|x|param|com.cleanpvp.HudManager.WidgetBounds|WidgetBounds|(IIII)V|x|0
+         @|com\cleanpvp\HudManager.java|10036|10037|y|param|com.cleanpvp.HudManager.WidgetBounds|WidgetBounds|(IIII)V|y|1
+         @|com\cleanpvp\HudManager.java|10043|10044|w|param|com.cleanpvp.HudManager.WidgetBounds|WidgetBounds|(IIII)V|w|2
+         @|com\cleanpvp\HudManager.java|10050|10051|h|param|com.cleanpvp.HudManager.WidgetBounds|WidgetBounds|(IIII)V|h|3
+         @|com\cleanpvp\HudManager.java|10060|10061|x|field|com.cleanpvp.HudManager.WidgetBounds|x
+         @|com\cleanpvp\HudManager.java|10064|10065|x|param|com.cleanpvp.HudManager.WidgetBounds|WidgetBounds|(IIII)V|x|0
+         @|com\cleanpvp\HudManager.java|10072|10073|y|field|com.cleanpvp.HudManager.WidgetBounds|y
+         @|com\cleanpvp\HudManager.java|10076|10077|y|param|com.cleanpvp.HudManager.WidgetBounds|WidgetBounds|(IIII)V|y|1
+         @|com\cleanpvp\HudManager.java|10084|10089|width|field|com.cleanpvp.HudManager.WidgetBounds|width
+         @|com\cleanpvp\HudManager.java|10092|10093|w|param|com.cleanpvp.HudManager.WidgetBounds|WidgetBounds|(IIII)V|w|2
+         @|com\cleanpvp\HudManager.java|10100|10106|height|field|com.cleanpvp.HudManager.WidgetBounds|height
+         @|com\cleanpvp\HudManager.java|10109|10110|h|param|com.cleanpvp.HudManager.WidgetBounds|WidgetBounds|(IIII)V|h|3
+      Method End: WidgetBounds(IIII)V
+      Method Start: contains(DD)Z
+         @|com\cleanpvp\HudManager.java|10137|10145|contains|method|com.cleanpvp.HudManager.WidgetBounds|contains|(DD)Z
+         @|com\cleanpvp\HudManager.java|10153|10155|px|param|com.cleanpvp.HudManager.WidgetBounds|contains|(DD)Z|px|0
+         @|com\cleanpvp\HudManager.java|10164|10166|py|param|com.cleanpvp.HudManager.WidgetBounds|contains|(DD)Z|py|1
+         @|com\cleanpvp\HudManager.java|10177|10179|px|param|com.cleanpvp.HudManager.WidgetBounds|contains|(DD)Z|px|0
+         @|com\cleanpvp\HudManager.java|10183|10184|x|field|com.cleanpvp.HudManager.WidgetBounds|x
+         @|com\cleanpvp\HudManager.java|10188|10190|px|param|com.cleanpvp.HudManager.WidgetBounds|contains|(DD)Z|px|0
+         @|com\cleanpvp\HudManager.java|10194|10195|x|field|com.cleanpvp.HudManager.WidgetBounds|x
+         @|com\cleanpvp\HudManager.java|10198|10203|width|field|com.cleanpvp.HudManager.WidgetBounds|width
+         @|com\cleanpvp\HudManager.java|10207|10209|py|param|com.cleanpvp.HudManager.WidgetBounds|contains|(DD)Z|py|1
+         @|com\cleanpvp\HudManager.java|10213|10214|y|field|com.cleanpvp.HudManager.WidgetBounds|y
+         @|com\cleanpvp\HudManager.java|10218|10220|py|param|com.cleanpvp.HudManager.WidgetBounds|contains|(DD)Z|py|1
+         @|com\cleanpvp\HudManager.java|10224|10225|y|field|com.cleanpvp.HudManager.WidgetBounds|y
+         @|com\cleanpvp\HudManager.java|10228|10234|height|field|com.cleanpvp.HudManager.WidgetBounds|height
+      Method End: contains(DD)Z
+   Class End  : com.cleanpvp.HudManager.WidgetBounds
+Class End  : com.cleanpvp.HudManager
+endProcessing com\cleanpvp\HudManager.java
+
+processing com\cleanpvp\HudWidget.java
+@|com\cleanpvp\HudWidget.java|8|20|com.cleanpvp|package|com.cleanpvp|(file)
+Enum Start: com.cleanpvp.HudWidget
+   @|com\cleanpvp\HudWidget.java|35|44|HudWidget|class|com.cleanpvp.HudWidget
+   @|com\cleanpvp\HudWidget.java|51|61|KEYSTROKES|field|com.cleanpvp.HudWidget|KEYSTROKES
+   @|com\cleanpvp\HudWidget.java|81|84|FPS|field|com.cleanpvp.HudWidget|FPS
+   @|com\cleanpvp\HudWidget.java|97|100|CPS|field|com.cleanpvp.HudWidget|CPS
+   @|com\cleanpvp\HudWidget.java|113|118|ARMOR|field|com.cleanpvp.HudWidget|ARMOR
+   @|com\cleanpvp\HudWidget.java|133|140|POTIONS|field|com.cleanpvp.HudWidget|POTIONS
+   @|com\cleanpvp\HudWidget.java|172|178|String|class|java.lang.String
+   @|com\cleanpvp\HudWidget.java|179|184|title|field|com.cleanpvp.HudWidget|title|
+   Method Start: HudWidget(Ljava/lang/String;)V
+      @|com\cleanpvp\HudWidget.java|191|200|HudWidget|method|com.cleanpvp.HudWidget|HudWidget|(Ljava/lang/String;)V
+      @|com\cleanpvp\HudWidget.java|201|207|String|class|java.lang.String
+      @|com\cleanpvp\HudWidget.java|208|213|title|param|com.cleanpvp.HudWidget|HudWidget|(Ljava/lang/String;)V|title|0
+      @|com\cleanpvp\HudWidget.java|230|235|title|field|com.cleanpvp.HudWidget|title
+      @|com\cleanpvp\HudWidget.java|238|243|title|param|com.cleanpvp.HudWidget|HudWidget|(Ljava/lang/String;)V|title|0
+   Method End: HudWidget(Ljava/lang/String;)V
+   Method Start: getTitle()Ljava/lang/String;
+      @|com\cleanpvp\HudWidget.java|270|278|getTitle|method|com.cleanpvp.HudWidget|getTitle|()Ljava/lang/String;
+      @|com\cleanpvp\HudWidget.java|263|269|String|class|java.lang.String
+      @|com\cleanpvp\HudWidget.java|298|303|title|field|com.cleanpvp.HudWidget|title
+   Method End: getTitle()Ljava/lang/String;
+Enum End  : com.cleanpvp.HudWidget
+endProcessing com\cleanpvp\HudWidget.java
+
+processing com\cleanpvp\ThemeManager.java
+@|com\cleanpvp\ThemeManager.java|8|20|com.cleanpvp|package|com.cleanpvp|(file)
+Class Start: com.cleanpvp.ThemeManager
+   Method Start: initialize()V
+      @|com\cleanpvp\ThemeManager.java|688|698|initialize|method|com.cleanpvp.ThemeManager|initialize|()V
+      @|com\cleanpvp\ThemeManager.java|711|725|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\cleanpvp\ThemeManager.java|726|735|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\cleanpvp\ThemeManager.java|736|744|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\cleanpvp\ThemeManager.java|749|761|ThemeManager|class|com.cleanpvp.ThemeManager
+   Method End: initialize()V
+   Method Start: onDrawScreenPost(Lnet/minecraftforge/client/event/GuiScreenEvent$DrawScreenEvent$Post;)V
+      @|com\cleanpvp\ThemeManager.java|842|858|onDrawScreenPost|method|com.cleanpvp.ThemeManager|onDrawScreenPost|(Lnet/minecraftforge/client/event/GuiScreenEvent$DrawScreenEvent$Post;)V
+      @|com\cleanpvp\ThemeManager.java|859|894|GuiScreenEvent.DrawScreenEvent.Post|class|net.minecraftforge.client.event.GuiScreenEvent.DrawScreenEvent.Post
+      @|com\cleanpvp\ThemeManager.java|895|900|event|param|com.cleanpvp.ThemeManager|onDrawScreenPost|(Lnet/minecraftforge/client/event/GuiScreenEvent$DrawScreenEvent$Post;)V|event|0
+      @|com\cleanpvp\ThemeManager.java|912|921|GuiScreen|class|net.minecraft.client.gui.GuiScreen
+      @|com\cleanpvp\ThemeManager.java|931|936|event|param|com.cleanpvp.ThemeManager|onDrawScreenPost|(Lnet/minecraftforge/client/event/GuiScreenEvent$DrawScreenEvent$Post;)V|event|0
+      @|com\cleanpvp\ThemeManager.java|937|940|gui|field|net.minecraftforge.client.event.GuiScreenEvent|gui
+      @|com\cleanpvp\ThemeManager.java|987|996|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\ThemeManager.java|1002|1011|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\ThemeManager.java|1012|1024|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\cleanpvp\ThemeManager.java|1110|1121|GuiMainMenu|class|net.minecraft.client.gui.GuiMainMenu
+      @|com\cleanpvp\ThemeManager.java|1137|1153|drawGradientRect|method|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V
+      @|com\cleanpvp\ThemeManager.java|1167|1172|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\cleanpvp\ThemeManager.java|1181|1187|height|field|net.minecraft.client.gui.GuiScreen|height
+      @|com\cleanpvp\ThemeManager.java|1189|1202|CleanPvpTheme|class|com.cleanpvp.CleanPvpTheme
+      @|com\cleanpvp\ThemeManager.java|1203|1215|TOP_GRADIENT|field|com.cleanpvp.CleanPvpTheme|TOP_GRADIENT
+      @|com\cleanpvp\ThemeManager.java|1217|1230|CleanPvpTheme|class|com.cleanpvp.CleanPvpTheme
+      @|com\cleanpvp\ThemeManager.java|1231|1246|BOTTOM_GRADIENT|field|com.cleanpvp.CleanPvpTheme|BOTTOM_GRADIENT
+      @|com\cleanpvp\ThemeManager.java|1261|1276|drawCustomTitle|method|com.cleanpvp.ThemeManager|drawCustomTitle|(Lnet/minecraft/client/gui/GuiScreen;)V
+      @|com\cleanpvp\ThemeManager.java|1414|1418|List|class|java.util.List
+      @|com\cleanpvp\ThemeManager.java|1419|1428|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\cleanpvp\ThemeManager.java|1443|1459|ReflectionHelper|class|net.minecraftforge.fml.relauncher.ReflectionHelper
+      @|com\cleanpvp\ThemeManager.java|1460|1475|getPrivateValue|method|net.minecraftforge.fml.relauncher.ReflectionHelper|getPrivateValue|(Ljava/lang/Class;Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+      @|com\cleanpvp\ThemeManager.java|1476|1485|GuiScreen|class|net.minecraft.client.gui.GuiScreen
+      @|com\cleanpvp\ThemeManager.java|1551|1560|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\cleanpvp\ThemeManager.java|1611|1618|visible|field|net.minecraft.client.gui.GuiButton|visible
+      @|com\cleanpvp\ThemeManager.java|1642|1658|drawModernButton|method|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V
+      @|com\cleanpvp\ThemeManager.java|1671|1676|event|param|com.cleanpvp.ThemeManager|onDrawScreenPost|(Lnet/minecraftforge/client/event/GuiScreenEvent$DrawScreenEvent$Post;)V|event|0
+      @|com\cleanpvp\ThemeManager.java|1677|1683|mouseX|field|net.minecraftforge.client.event.GuiScreenEvent.DrawScreenEvent|mouseX
+      @|com\cleanpvp\ThemeManager.java|1685|1690|event|param|com.cleanpvp.ThemeManager|onDrawScreenPost|(Lnet/minecraftforge/client/event/GuiScreenEvent$DrawScreenEvent$Post;)V|event|0
+      @|com\cleanpvp\ThemeManager.java|1691|1697|mouseY|field|net.minecraftforge.client.event.GuiScreenEvent.DrawScreenEvent|mouseY
+      @|com\cleanpvp\ThemeManager.java|1749|1758|Exception|class|java.lang.Exception
+   Method End: onDrawScreenPost(Lnet/minecraftforge/client/event/GuiScreenEvent$DrawScreenEvent$Post;)V
+   Method Start: drawCustomTitle(Lnet/minecraft/client/gui/GuiScreen;)V
+      @|com\cleanpvp\ThemeManager.java|1842|1857|drawCustomTitle|method|com.cleanpvp.ThemeManager|drawCustomTitle|(Lnet/minecraft/client/gui/GuiScreen;)V
+      @|com\cleanpvp\ThemeManager.java|1858|1867|GuiScreen|class|net.minecraft.client.gui.GuiScreen
+      @|com\cleanpvp\ThemeManager.java|1868|1874|screen|param|com.cleanpvp.ThemeManager|drawCustomTitle|(Lnet/minecraft/client/gui/GuiScreen;)V|screen|0
+      @|com\cleanpvp\ThemeManager.java|1886|1892|String|class|java.lang.String
+      @|com\cleanpvp\ThemeManager.java|1966|1972|screen|param|com.cleanpvp.ThemeManager|drawCustomTitle|(Lnet/minecraft/client/gui/GuiScreen;)V|screen|0
+      @|com\cleanpvp\ThemeManager.java|1973|1975|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|com\cleanpvp\ThemeManager.java|1976|1991|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|com\cleanpvp\ThemeManager.java|1992|2006|getStringWidth|method|net.minecraft.client.gui.FontRenderer|getStringWidth|(Ljava/lang/String;)I
+      @|com\cleanpvp\ThemeManager.java|2024|2038|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\cleanpvp\ThemeManager.java|2039|2049|pushMatrix|method|net.minecraft.client.renderer.GlStateManager|pushMatrix|()V
+      @|com\cleanpvp\ThemeManager.java|2061|2075|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\cleanpvp\ThemeManager.java|2076|2085|translate|method|net.minecraft.client.renderer.GlStateManager|translate|(FFF)V
+      @|com\cleanpvp\ThemeManager.java|2086|2092|screen|param|com.cleanpvp.ThemeManager|drawCustomTitle|(Lnet/minecraft/client/gui/GuiScreen;)V|screen|0
+      @|com\cleanpvp\ThemeManager.java|2093|2098|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\cleanpvp\ThemeManager.java|2122|2136|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\cleanpvp\ThemeManager.java|2137|2142|scale|method|net.minecraft.client.renderer.GlStateManager|scale|(FFF)V
+      @|com\cleanpvp\ThemeManager.java|2172|2178|screen|param|com.cleanpvp.ThemeManager|drawCustomTitle|(Lnet/minecraft/client/gui/GuiScreen;)V|screen|0
+      @|com\cleanpvp\ThemeManager.java|2179|2181|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|com\cleanpvp\ThemeManager.java|2182|2197|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|com\cleanpvp\ThemeManager.java|2198|2218|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\ThemeManager.java|2266|2280|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\cleanpvp\ThemeManager.java|2281|2290|popMatrix|method|net.minecraft.client.renderer.GlStateManager|popMatrix|()V
+   Method End: drawCustomTitle(Lnet/minecraft/client/gui/GuiScreen;)V
+   Method Start: drawModernButton(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V
+      @|com\cleanpvp\ThemeManager.java|2318|2334|drawModernButton|method|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V
+      @|com\cleanpvp\ThemeManager.java|2335|2344|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\cleanpvp\ThemeManager.java|2345|2347|mc|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|mc|0
+      @|com\cleanpvp\ThemeManager.java|2349|2358|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\cleanpvp\ThemeManager.java|2359|2365|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|2371|2377|mouseX|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|mouseX|2
+      @|com\cleanpvp\ThemeManager.java|2383|2389|mouseY|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|mouseY|3
+      @|com\cleanpvp\ThemeManager.java|2419|2425|mouseX|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|mouseX|2
+      @|com\cleanpvp\ThemeManager.java|2429|2435|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|2436|2445|xPosition|field|net.minecraft.client.gui.GuiButton|xPosition
+      @|com\cleanpvp\ThemeManager.java|2449|2455|mouseY|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|mouseY|3
+      @|com\cleanpvp\ThemeManager.java|2459|2465|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|2466|2475|yPosition|field|net.minecraft.client.gui.GuiButton|yPosition
+      @|com\cleanpvp\ThemeManager.java|2479|2485|mouseX|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|mouseX|2
+      @|com\cleanpvp\ThemeManager.java|2488|2494|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|2495|2504|xPosition|field|net.minecraft.client.gui.GuiButton|xPosition
+      @|com\cleanpvp\ThemeManager.java|2507|2513|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|2514|2519|width|field|net.minecraft.client.gui.GuiButton|width
+      @|com\cleanpvp\ThemeManager.java|2523|2529|mouseY|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|mouseY|3
+      @|com\cleanpvp\ThemeManager.java|2532|2538|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|2539|2548|yPosition|field|net.minecraft.client.gui.GuiButton|yPosition
+      @|com\cleanpvp\ThemeManager.java|2551|2557|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|2558|2564|height|field|net.minecraft.client.gui.GuiButton|height
+      @|com\cleanpvp\ThemeManager.java|2603|2616|CleanPvpTheme|class|com.cleanpvp.CleanPvpTheme
+      @|com\cleanpvp\ThemeManager.java|2617|2633|BUTTON_HOVER_TOP|field|com.cleanpvp.CleanPvpTheme|BUTTON_HOVER_TOP
+      @|com\cleanpvp\ThemeManager.java|2636|2649|CleanPvpTheme|class|com.cleanpvp.CleanPvpTheme
+      @|com\cleanpvp\ThemeManager.java|2650|2660|BUTTON_TOP|field|com.cleanpvp.CleanPvpTheme|BUTTON_TOP
+      @|com\cleanpvp\ThemeManager.java|2693|2706|CleanPvpTheme|class|com.cleanpvp.CleanPvpTheme
+      @|com\cleanpvp\ThemeManager.java|2707|2726|BUTTON_HOVER_BOTTOM|field|com.cleanpvp.CleanPvpTheme|BUTTON_HOVER_BOTTOM
+      @|com\cleanpvp\ThemeManager.java|2729|2742|CleanPvpTheme|class|com.cleanpvp.CleanPvpTheme
+      @|com\cleanpvp\ThemeManager.java|2743|2756|BUTTON_BOTTOM|field|com.cleanpvp.CleanPvpTheme|BUTTON_BOTTOM
+      @|com\cleanpvp\ThemeManager.java|2780|2786|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|2787|2794|enabled|field|net.minecraft.client.gui.GuiButton|enabled
+      @|com\cleanpvp\ThemeManager.java|2939|2955|drawGradientRect|method|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V
+      @|com\cleanpvp\ThemeManager.java|2956|2962|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|2963|2972|xPosition|field|net.minecraft.client.gui.GuiButton|xPosition
+      @|com\cleanpvp\ThemeManager.java|2974|2980|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|2981|2990|yPosition|field|net.minecraft.client.gui.GuiButton|yPosition
+      @|com\cleanpvp\ThemeManager.java|2992|2998|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|2999|3008|xPosition|field|net.minecraft.client.gui.GuiButton|xPosition
+      @|com\cleanpvp\ThemeManager.java|3011|3017|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|3018|3023|width|field|net.minecraft.client.gui.GuiButton|width
+      @|com\cleanpvp\ThemeManager.java|3025|3031|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|3032|3041|yPosition|field|net.minecraft.client.gui.GuiButton|yPosition
+      @|com\cleanpvp\ThemeManager.java|3044|3050|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|3051|3057|height|field|net.minecraft.client.gui.GuiButton|height
+      @|com\cleanpvp\ThemeManager.java|3118|3128|HudManager|class|com.cleanpvp.HudManager
+      @|com\cleanpvp\ThemeManager.java|3129|3140|drawOutline|method|com.cleanpvp.HudManager|drawOutline|(IIIII)V
+      @|com\cleanpvp\ThemeManager.java|3141|3147|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|3148|3157|xPosition|field|net.minecraft.client.gui.GuiButton|xPosition
+      @|com\cleanpvp\ThemeManager.java|3159|3165|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|3166|3175|yPosition|field|net.minecraft.client.gui.GuiButton|yPosition
+      @|com\cleanpvp\ThemeManager.java|3177|3183|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|3184|3189|width|field|net.minecraft.client.gui.GuiButton|width
+      @|com\cleanpvp\ThemeManager.java|3191|3197|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|3198|3204|height|field|net.minecraft.client.gui.GuiButton|height
+      @|com\cleanpvp\ThemeManager.java|3206|3219|CleanPvpTheme|class|com.cleanpvp.CleanPvpTheme
+      @|com\cleanpvp\ThemeManager.java|3220|3233|BUTTON_BORDER|field|com.cleanpvp.CleanPvpTheme|BUTTON_BORDER
+      @|com\cleanpvp\ThemeManager.java|3349|3355|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|3356|3363|enabled|field|net.minecraft.client.gui.GuiButton|enabled
+      @|com\cleanpvp\ThemeManager.java|3484|3490|String|class|java.lang.String
+      @|com\cleanpvp\ThemeManager.java|3498|3504|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|3505|3518|displayString|field|net.minecraft.client.gui.GuiButton|displayString
+      @|com\cleanpvp\ThemeManager.java|3528|3530|mc|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|mc|0
+      @|com\cleanpvp\ThemeManager.java|3531|3546|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|com\cleanpvp\ThemeManager.java|3547|3567|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\cleanpvp\ThemeManager.java|3574|3580|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|3581|3590|xPosition|field|net.minecraft.client.gui.GuiButton|xPosition
+      @|com\cleanpvp\ThemeManager.java|3593|3599|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|3600|3605|width|field|net.minecraft.client.gui.GuiButton|width
+      @|com\cleanpvp\ThemeManager.java|3612|3614|mc|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|mc|0
+      @|com\cleanpvp\ThemeManager.java|3615|3630|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|com\cleanpvp\ThemeManager.java|3631|3645|getStringWidth|method|net.minecraft.client.gui.FontRenderer|getStringWidth|(Ljava/lang/String;)I
+      @|com\cleanpvp\ThemeManager.java|3657|3663|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|3664|3673|yPosition|field|net.minecraft.client.gui.GuiButton|yPosition
+      @|com\cleanpvp\ThemeManager.java|3677|3683|button|param|com.cleanpvp.ThemeManager|drawModernButton|(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V|button|1
+      @|com\cleanpvp\ThemeManager.java|3684|3690|height|field|net.minecraft.client.gui.GuiButton|height
+   Method End: drawModernButton(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/GuiButton;II)V
+   Method Start: drawGradientRect(IIIIII)V
+      @|com\cleanpvp\ThemeManager.java|3743|3759|drawGradientRect|method|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V
+      @|com\cleanpvp\ThemeManager.java|3764|3768|left|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|left|0
+      @|com\cleanpvp\ThemeManager.java|3774|3777|top|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|top|1
+      @|com\cleanpvp\ThemeManager.java|3783|3788|right|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|right|2
+      @|com\cleanpvp\ThemeManager.java|3794|3800|bottom|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|bottom|3
+      @|com\cleanpvp\ThemeManager.java|3806|3816|startColor|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|startColor|4
+      @|com\cleanpvp\ThemeManager.java|3822|3830|endColor|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|endColor|5
+      @|com\cleanpvp\ThemeManager.java|3860|3870|startColor|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|startColor|4
+      @|com\cleanpvp\ThemeManager.java|3921|3931|startColor|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|startColor|4
+      @|com\cleanpvp\ThemeManager.java|3982|3992|startColor|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|startColor|4
+      @|com\cleanpvp\ThemeManager.java|4042|4052|startColor|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|startColor|4
+      @|com\cleanpvp\ThemeManager.java|4097|4105|endColor|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|endColor|5
+      @|com\cleanpvp\ThemeManager.java|4156|4164|endColor|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|endColor|5
+      @|com\cleanpvp\ThemeManager.java|4215|4223|endColor|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|endColor|5
+      @|com\cleanpvp\ThemeManager.java|4273|4281|endColor|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|endColor|5
+      @|com\cleanpvp\ThemeManager.java|4316|4330|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\cleanpvp\ThemeManager.java|4331|4347|disableTexture2D|method|net.minecraft.client.renderer.GlStateManager|disableTexture2D|()V
+      @|com\cleanpvp\ThemeManager.java|4359|4373|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\cleanpvp\ThemeManager.java|4374|4385|enableBlend|method|net.minecraft.client.renderer.GlStateManager|enableBlend|()V
+      @|com\cleanpvp\ThemeManager.java|4397|4411|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\cleanpvp\ThemeManager.java|4412|4424|disableAlpha|method|net.minecraft.client.renderer.GlStateManager|disableAlpha|()V
+      @|com\cleanpvp\ThemeManager.java|4436|4450|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\cleanpvp\ThemeManager.java|4451|4471|tryBlendFuncSeparate|method|net.minecraft.client.renderer.GlStateManager|tryBlendFuncSeparate|(IIII)V
+      @|com\cleanpvp\ThemeManager.java|4497|4511|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\cleanpvp\ThemeManager.java|4512|4522|shadeModel|method|net.minecraft.client.renderer.GlStateManager|shadeModel|(I)V
+      @|com\cleanpvp\ThemeManager.java|4538|4549|Tessellator|class|net.minecraft.client.renderer.Tessellator
+      @|com\cleanpvp\ThemeManager.java|4564|4575|Tessellator|class|net.minecraft.client.renderer.Tessellator
+      @|com\cleanpvp\ThemeManager.java|4576|4587|getInstance|method|net.minecraft.client.renderer.Tessellator|getInstance|()Lnet/minecraft/client/renderer/Tessellator;
+      @|com\cleanpvp\ThemeManager.java|4599|4612|WorldRenderer|class|net.minecraft.client.renderer.WorldRenderer
+      @|com\cleanpvp\ThemeManager.java|4641|4657|getWorldRenderer|method|net.minecraft.client.renderer.Tessellator|getWorldRenderer|()Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\cleanpvp\ThemeManager.java|4683|4688|begin|method|net.minecraft.client.renderer.WorldRenderer|begin|(ILnet/minecraft/client/renderer/vertex/VertexFormat;)V
+      @|com\cleanpvp\ThemeManager.java|4692|4712|DefaultVertexFormats|class|net.minecraft.client.renderer.vertex.DefaultVertexFormats
+      @|com\cleanpvp\ThemeManager.java|4713|4727|POSITION_COLOR|field|net.minecraft.client.renderer.vertex.DefaultVertexFormats|POSITION_COLOR
+      @|com\cleanpvp\ThemeManager.java|4752|4755|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\cleanpvp\ThemeManager.java|4764|4769|right|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|right|2
+      @|com\cleanpvp\ThemeManager.java|4779|4782|top|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|top|1
+      @|com\cleanpvp\ThemeManager.java|4789|4794|color|method|net.minecraft.client.renderer.WorldRenderer|color|(FFFF)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\cleanpvp\ThemeManager.java|4810|4819|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
+      @|com\cleanpvp\ThemeManager.java|4845|4848|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\cleanpvp\ThemeManager.java|4857|4861|left|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|left|0
+      @|com\cleanpvp\ThemeManager.java|4871|4874|top|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|top|1
+      @|com\cleanpvp\ThemeManager.java|4881|4886|color|method|net.minecraft.client.renderer.WorldRenderer|color|(FFFF)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\cleanpvp\ThemeManager.java|4902|4911|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
+      @|com\cleanpvp\ThemeManager.java|4937|4940|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\cleanpvp\ThemeManager.java|4949|4953|left|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|left|0
+      @|com\cleanpvp\ThemeManager.java|4963|4969|bottom|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|bottom|3
+      @|com\cleanpvp\ThemeManager.java|4976|4981|color|method|net.minecraft.client.renderer.WorldRenderer|color|(FFFF)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\cleanpvp\ThemeManager.java|4998|5007|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
+      @|com\cleanpvp\ThemeManager.java|5033|5036|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\cleanpvp\ThemeManager.java|5045|5050|right|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|right|2
+      @|com\cleanpvp\ThemeManager.java|5060|5066|bottom|param|com.cleanpvp.ThemeManager|drawGradientRect|(IIIIII)V|bottom|3
+      @|com\cleanpvp\ThemeManager.java|5073|5078|color|method|net.minecraft.client.renderer.WorldRenderer|color|(FFFF)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\cleanpvp\ThemeManager.java|5095|5104|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
+      @|com\cleanpvp\ThemeManager.java|5128|5132|draw|method|net.minecraft.client.renderer.Tessellator|draw|()V
+      @|com\cleanpvp\ThemeManager.java|5144|5158|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\cleanpvp\ThemeManager.java|5159|5169|shadeModel|method|net.minecraft.client.renderer.GlStateManager|shadeModel|(I)V
+      @|com\cleanpvp\ThemeManager.java|5185|5199|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\cleanpvp\ThemeManager.java|5200|5212|disableBlend|method|net.minecraft.client.renderer.GlStateManager|disableBlend|()V
+      @|com\cleanpvp\ThemeManager.java|5224|5238|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\cleanpvp\ThemeManager.java|5239|5250|enableAlpha|method|net.minecraft.client.renderer.GlStateManager|enableAlpha|()V
+      @|com\cleanpvp\ThemeManager.java|5262|5276|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\cleanpvp\ThemeManager.java|5277|5292|enableTexture2D|method|net.minecraft.client.renderer.GlStateManager|enableTexture2D|()V
+   Method End: drawGradientRect(IIIIII)V
+Class End  : com.cleanpvp.ThemeManager
+endProcessing com\cleanpvp\ThemeManager.java
+
