@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "cleanpvp",
+	"version": "1.0.0",
+	"name": "CleanPVP",
+	"description": "Clean, draggable PvP HUD with keystrokes, CPS, FPS, armor durability, potion tracker, and persistent layouts.",
+	"authors": [
+		"CleanPVP Team"
+	],
+	"contact": {
+		"homepage": "https://example.com/cleanpvp",
+		"sources": "https://example.com/cleanpvp/source"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cleanpvp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.cleanpvp.CleanPVP"
+		],
+		"client": [
+			"com.cleanpvp.client.CleanPVPClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "cleanpvp.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
